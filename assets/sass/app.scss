@@ -3,14 +3,24 @@
  */
 
 $bootstrap-sass-asset-helper: false;
+@import "custom/custom-mixins";
 @import "custom/custom-variables";
-@import "bootstrap/bootstrap";
+@import "custom/custom-bootstrap";
+@import "custom/partials/navbar";
+
+// page-specific styling
+@import "custom/pages/home";
 
 /* ==========================================================================
    Base
    ========================================================================== */
 
-body { }
+body {
+
+   // min-width: 480px;
+   min-width: 320px;
+
+}
 
 
 
@@ -18,7 +28,9 @@ body { }
    Header
    ========================================================================== */
 
-.banner { }
+.banner {
+
+}
 
 
 

@@ -65,11 +65,12 @@ module.exports = function(grunt) {
       }
     },
     watch: {
+      options: {
+        livereload: true,
+      },
       sass: {
         files: [
-          'assets/sass/*.scss',
-          'assets/sass/custom/*.scss',
-          'assets/sass/bootstrap/*.scss'
+          'assets/sass/**/*.scss'
         ],
         tasks: ['sass', 'version']
       },
