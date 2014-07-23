@@ -35,10 +35,10 @@
         }
       }
       .content {
-        margin-top: 20%;
+        margin-top: 10%;
         padding: 0 10px;
         @media (max-width: $screen-xs) {
-          margin-top: 10%;
+          margin-top: 20%;
           p{
             font-size: 20px;
           }
@@ -48,34 +48,31 @@
           font-size: 30px;
           color: white;
           a {
-            margin-top: 15%;
+            margin-top: 10%;
             border: 2px solid white;
             border-radius: 0;
             color: white;
             background: none;
             width: 125px;
             &:hover{
-              border: 2px solid rgb(248, 151, 35);
+              background: $rit-orange;
+              border: 2px solid $rit-orange;
             }
           }
         }
       }
       .image {
-        background: url('../img/content/home/iphone.png') 100% 0 no-repeat;
+        background: url('../img/content/home/iphone.png') 50% 0 no-repeat;
         height: 430px;
         width: 100%;
         position: absolute;
-        top: 0;
-        left: 0;
 
-        // img{
-        //   margin: auto;
-        //   float: right;
-        // }
         .iphone-overlay {
           position: absolute;
-          left: 35%;
-          top: 30%;
+          margin: 0 auto;
+          width: 100%;
+          text-align: center;
+          margin-top: 100px;
         }
       }
     }

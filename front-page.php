@@ -16,13 +16,11 @@
         <div class="col-xs-6">
         <div class="image">
           <div class="iphone-overlay">
-            <img class="img-responsive" src="<?php echo get_template_directory_uri();?>/assets/img/layout/logo/ascoLogoMobile-NoShadow.png" alt="">
-
+            <img src="<?php echo get_template_directory_uri();?>/assets/img/layout/logo/ascoLogoMobile-NoShadow.png" alt="">
+            <p>ASC Online</p>
           </div>
         </div>
-          <!-- <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/content/home/iphone.png" alt="" width="205" height="431"> -->
-          <span class="iphone-overlay">
-          </span>
+          <span class="iphone-overlay"></span>
         </div>
       </div>
     </div>
@@ -53,7 +51,8 @@
             <small>Lessons worth Learning</small>
           </h2>
         </div>
-
+      </div>
+      <div class="row">
         <div class="col-sm-4">
 
           <div class="panel panel-default blue">
@@ -84,7 +83,9 @@
             </div>
           </div>
         </div>
+      </div>
 
+      <div class="row">
         <div class="col-sm-4">
           <div class="panel panel-default yellow">
             <a href=""><img class="img-responsive" src="<?php echo get_template_directory_uri();?>/assets/img/content/lessons/math_icon.png" alt=""></a>
@@ -113,6 +114,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatibus tempore blanditiis.</p>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>

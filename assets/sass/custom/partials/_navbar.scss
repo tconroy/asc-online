@@ -1,6 +1,6 @@
 .asco-banner {
    height: 100px;
-   background-color: #f89723; // rit orange
+   background-color: $rit-orange; // rit orange
    margin-bottom: 0;
    padding-bottom: 0;
    border-bottom: none;
@@ -30,12 +30,13 @@
 
                &:hover{
                   a{
-                     background: #f89723;
+                     background: $rit-orange;
                   }
                }
                &.active{
                   a{
-                     background: #f8571c;
+                     // background: #f8571c;
+                     background: lighten($rit-orange, 10%);
                   }
                }
             }
@@ -60,11 +61,14 @@
                   margin-bottom: 0;
                }
             }
-            &:hover,&:focus{
+            &:focus{
                background:none;
-
+            }
+            &:hover{
+               background:none;
                .icon-bar{
-                  background-color: #ed8b22;
+                  // background-color: #ed8b22;
+                  background-color: darken($rit-orange, 10%);
                }
             }
          }
