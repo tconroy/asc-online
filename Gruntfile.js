@@ -4,6 +4,8 @@ module.exports = function(grunt) {
   grunt.initConfig({
     jshint: {
       options: {
+        /*'W030': true,
+        'W062': true,*/
         jshintrc: '.jshintrc'
       },
       all: [

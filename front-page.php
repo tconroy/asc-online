@@ -3,8 +3,6 @@
 <div class="container">
 
   <div class="home jumbotron">
-    <div class="container">
-      <!-- jumbotron main -->
       <div class="row">
         <div class="content col-xs-6">
           <p>
@@ -14,16 +12,15 @@
           </p>
         </div>
         <div class="col-xs-6">
-        <div class="image">
-          <div class="iphone-overlay">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/layout/logo/ascoLogoMobile-NoShadow.png" alt="">
+        <div class="iphone-wrapper">
+          <img class="iphone" src="<?=get_template_directory_uri()?>/assets/img/content/home/iphone.png" alt="">
+          <div class="content">
+            <img class="logo" src="<?=get_template_directory_uri();?>/assets/img/layout/logo/ascoLogoMobile-noshadow.png" alt="">
             <p>ASC Online</p>
           </div>
         </div>
-          <span class="iphone-overlay"></span>
         </div>
       </div>
-    </div>
   </div>
 
   <div class="home jumbotron-caption">
@@ -43,17 +40,11 @@
   </div>
 
   <div class="home classroom">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 title">
-          <h2>
-            ASC Online Classroom
-            <small>Lessons worth Learning</small>
-          </h2>
+        <div class="title col-sm-12">
+          <h2>ASC Online Classroom</h2>
+          <small>Lessons worth Learning</small>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-6 col-md-4">
 
           <div class="panel panel-default blue">
             <a href=""><img class="img-responsive" src="<?php echo get_template_directory_uri();?>/assets/img/content/lessons/study_skills_icon.png" alt=""></a>
@@ -64,7 +55,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-6 col-md-4">
           <div class="panel panel-default green">
             <a href=""><img class="img-responsive" src="<?php echo get_template_directory_uri();?>/assets/img/content/lessons/time_management_icon.png" alt=""></a>
             <div class="panel-body">
@@ -74,7 +65,9 @@
           </div>
         </div>
 
-        <div class="col-sm-4">
+        <div class="clearfix visible-sm"></div>
+
+        <div class="col-sm-6 col-md-4">
           <div class="panel panel-default orange">
             <a href=""><img class="img-responsive" src="<?php echo get_template_directory_uri();?>/assets/img/content/lessons/tutoring_icon.png" alt=""></a>
             <div class="panel-body">
@@ -83,10 +76,10 @@
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-sm-4">
+         <div class="clearfix visible-md visible-lg"></div>
+
+        <div class="col-sm-6 col-md-4">
           <div class="panel panel-default yellow">
             <a href=""><img class="img-responsive" src="<?php echo get_template_directory_uri();?>/assets/img/content/lessons/math_icon.png" alt=""></a>
             <div class="panel-body">
@@ -96,7 +89,9 @@
           </div>
         </div>
 
-        <div class="col-sm-4">
+        <div class="clearfix visible-sm"></div>
+
+        <div class="col-sm-6 col-md-4">
           <div class="panel panel-default red">
             <a href=""><img class="img-responsive" src="<?php echo get_template_directory_uri();?>/assets/img/content/lessons/reading_icon.png" alt=""></a>
             <div class="panel-body">
@@ -106,7 +101,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-6 col-md-4">
           <div class="panel panel-default gray">
             <a href=""><img class="img-responsive" src="<?php echo get_template_directory_uri();?>/assets/img/content/lessons/online_learning_icon.png" alt=""></a>
             <div class="panel-body">
@@ -115,8 +110,7 @@
             </div>
           </div>
         </div>
-        </div>
-      </div>
+        <div class="clearfix visible-sm"></div>
     </div>
 
   </div>

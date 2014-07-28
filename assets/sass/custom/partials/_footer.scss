@@ -1,34 +1,59 @@
 footer.footer{
   .learnmore-footer{
-    padding: 30px;
     background-color: $rit-darkgray;
-    height: auto;
+    height: 100%;
+    padding: 15px;
     text-align: center;
     color: white;
-    h2 {
-      padding: 50px;
-      padding-bottom: 60px;
-      margin: 0;
+    h2{
+      margin-top: 35px;
+      padding-bottom: 50px;
     }
+
     a{
-      p{
-        color: white;
-        padding-top: 25px;
-        font-size: 18px;
+      // margin: 0 25px;
+      font-weight: 300;
+      display: inline-block;
+      color: white;
+      height: auto;
+      span{
+        display: block;
+        padding-top:75px;
       }
     }
+
+    a.browser  { background: url('../img/layout/footer/browser.png')  50% 0 no-repeat; }
+    a.schedule { background: url('../img/layout/footer/schedule.png') 50% 0 no-repeat; }
+    a.mail     { background: url('../img/layout/footer/email.png')    50% 0 no-repeat; text-align:right; }
+
   } // end learnmore
 
   .stayconnected-footer{
     background-color: #f3823d;
-    height: 100px;
+    height: auto;
     color: white;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    h2{
+      margin-top: 0;
+    }
   } // end stayconnected
 
   .rit-footer{
     background-color: black;
     height: 100px;
+    margin-top: 0;
+    padding: 15px;
   } // end rit
+
+
+  @media (max-width: $screen-sm) {
+    .stayconnected-footer{
+      h2{
+        font-size: 20px;
+      }
+    }
+  }
 
 }

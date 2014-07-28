@@ -1,8 +1,7 @@
-.equal, .equal > div[class*='col-'] {
-  display: webkit-box;
-  display: -webkit-flex;
-  display: flex;
-  flex: 1 0 auto;
+@media (min-width: 992px) {
+  .col-md-4 > .panel > .panel-body {
+    min-height: 175px;
+  }
 }
 
 .panel {
@@ -49,6 +48,7 @@
   .wrap {
     padding-left: 0;
     padding-right: 0;
+    margin-top: 100px;
   }
 
   .content {
@@ -61,24 +61,15 @@
   .home {
 
     .jumbotron {
-      margin-bottom: 0;
       border-radius: 0;
+      margin-bottom: 0;
       background: url('../img/layout/cover/top.jpg') no-repeat center top fixed;
-      height: 490px;
 
-      @media (max-width: $screen-xs){
-        padding-bottom: 60px;
-        .image {
-          background-size: 98%;
-        }
-      }
       .content {
         margin-top: 10%;
-        padding: 0 10px;
         @media (max-width: $screen-xs) {
-          margin-top: 20%;
           p{
-            font-size: 30px;
+            font-size: 25px;
           }
         }
 
@@ -87,11 +78,13 @@
           color: white;
           a {
             margin-top: 10%;
+            width: 125px;
             border: 2px solid white;
             border-radius: 0;
+            display:block;
             color: white;
             background: none;
-            width: 125px;
+
             &:hover{
               background: $rit-orange;
               border: 2px solid $rit-orange;
@@ -99,18 +92,25 @@
           }
         }
       }
-      .image {
-        background: url('../img/content/home/iphone.png') 50% 0 no-repeat;
-        height: 430px;
-        width: 100%;
-        position: absolute;
-
-        .iphone-overlay {
-          position: absolute;
-          margin: 0 auto;
+      .iphone-wrapper{
+        margin-bottom: -50px;
+        float: right;
+        display: inline-block;
+        position: relative;
+        img.iphone{
           width: 100%;
+        }
+        .content {
+          left: 0;
+          right: 0;
+          top: 20%;
           text-align: center;
-          margin-top: 100px;
+          position: absolute;
+          p{
+            font-size: 18px;
+            color: $rit-orange;
+            margin-top:5%;
+          }
         }
       }
     }
@@ -120,15 +120,9 @@
       padding-bottom: 20px;
       padding-left: 30px;
       padding-right: 30px;
+      font-size: 1.25em;
       background: $rit-darkgray;
       color: white;
-      font-size: 1.25em;
-
-      margin-top: -50px;
-      @media (max-width: $screen-xs){
-        margin-top: -40px;
-      }
-
       .social {
         $social-icon : '../img/content/icons/square/';
         $ext  : '_square@2x.png';
@@ -151,9 +145,6 @@
           height: 48px;
           max-width: 48px;
           margin-right: 20px;
-          @media (max-width: $screen-xs){
-            margin-right: 10px;
-          }
         }
         .fb {   background: url($fb) 0 0 no-repeat; }
         .tw {   background:url($tw) 0 0 no-repeat; }
@@ -164,19 +155,19 @@
 
 
     .classroom {
-      padding-top: 10%;
 
       .title {
-        text-align: center;
+        margin: 50px 0 30px 0;
         font-weight: 500;
+        line-height: 1.5;
+        text-align: center;
         text-transform: uppercase;
-        margin-bottom: 10%;
         h2{
-          line-height: 1.5;
-          margin: 0;
+          font-size: 25px;
         }
         small {
           display: block;
+          font-size: 18px;
           text-transform: capitalize;
         }
       } // end title
