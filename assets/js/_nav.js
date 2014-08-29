@@ -17,6 +17,13 @@ var Nav = {
   // sets up event listeners related to navigation
   bindEvents: function () {
     $(window).resize( this.setNavClass );
+    $(document).click( this.hideNavMenu );
+  },
+
+  // hides the dropdown menu if use clicks outside of
+  // it.
+  hideNavMenu: function () {
+    $('.collapse').collapse('hide');
   },
 
   /*

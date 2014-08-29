@@ -2,12 +2,34 @@
 
 .asco-banner{
    height: 80px;
+   margin-bottom: 0;
    background-color: white;
    border: none;
    text-transform: uppercase;
 
+   ul#menu-primary-navigation{
+      li{
+         height: 80px;
+         padding-right: 15px;
+         &.active{
+            background: none;
+            a{
+               color: $asc-orange;
+               height: 60px;
+               border-bottom: 3px solid $asc-orange;
+            }
+         }
+         a{
+            font-size: 1.25em;
+            line-height: 80px;
+            padding: 0;
+            background: none;
+         }
+      }
+   }
+
    .navbar-brand{
-      background: url(../img/layout/logo/ascoLogoDesktop.png) 0 10px no-repeat;
+      background: url(../img/layout/logo/ascoLogoDesktop.png) 0 40% no-repeat;
       height: 80px;
       padding-bottom: 0;
       padding-right: 150px;
@@ -26,11 +48,10 @@
    .navbar-header{
       height: 40px;
       line-height: 40px;
-
-      .navbar-brand {
+   }
+   .navbar-brand {
          padding: 7px;
       }
-   }
 
    form{
       line-height: 16px;
@@ -93,6 +114,9 @@
 
       .navbar-collapse{
          border-top: none;
+         &.in{
+            overflow-y: visible;
+         }
          ul.navbar-nav {
             margin-top: 0;
 
@@ -108,7 +132,6 @@
                   line-height: 30px;
                   color:white;
                }
-
                &:hover{
                   a{
                      background: $rit-orange;

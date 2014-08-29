@@ -4,35 +4,211 @@
   }
 }
 
-.panel {
-
-  max-width: 450px;
-  margin: 0 auto;
-  margin-bottom: 30px;
-
-  &.blue   {background: rgb(61, 178, 229);}
-  &.green  {background: rgb(51, 181, 138);}
-  &.orange {background: rgb(243, 130, 61);}
-  &.yellow {background: rgb(254, 212, 87);}
-  &.red    {background: rgb(225, 57, 57);}
-  &.gray   {background: rgb(97, 100, 116);}
-
-  img{
+.home{
+  .panel {
+    max-width: 450px;
     margin: 0 auto;
-    padding: 30px;
-  }
-
-  .panel-body {
-    text-align: center;
-    background: white;
-
-    .panel-title{
-      text-transform: uppercase;
-      font-size: 24px;
-      margin: 15px 0 10px 0;
+    margin-bottom: 30px;
+    &.blue   {background: rgb(61, 178, 229);}
+    &.green  {background: rgb(51, 181, 138);}
+    &.orange {background: rgb(243, 130, 61);}
+    &.yellow {background: rgb(254, 212, 87);}
+    &.red    {background: rgb(225, 57, 57);}
+    &.gray   {background: rgb(97, 100, 116);}
+    img{
+      margin: 0 auto;
+      padding: 30px;
     }
+
+    .panel-body {
+      text-align: center;
+      background: white;
+      .panel-title{
+        text-transform: uppercase;
+        font-size: 24px;
+        margin: 15px 0 10px 0;
+      }
+    }
+  } // end panel
+
+  .jumbotron {
+    background: url('../img/layout/cover/top.jpg') no-repeat center top;
+    height: auto;
+    background-size: 100%;
+    transform: translateZ(0);
+    padding: 0;
+    margin-bottom: 0;
+
+    .container {
+      padding-top: 5%;
+      padding-bottom: 5%;
+    }
+
+    .content{
+      color: white;
+      p{
+        font-size: 30px;
+        margin: 0;
+        span{
+          display:block;
+          font-size: 40px;
+        }
+      }
+    }
+  } // end jumbotron
+
+  .jumbotron-caption{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.25em;
+    background: $rit-darkgray;
+    color: white;
+    .social {
+      $social-icon : '../img/content/icons/square/';
+      $ext  : '_square@2x.png';
+      $fb   : $social-icon + 'facebook' + $ext;
+      $tw   : $social-icon + 'twitter' + $ext;
+      $yt   : $social-icon + 'youtube' + $ext;
+      $link : $social-icon + 'thelink' + $ext;
+
+      float: right;
+
+      margin-bottom: 0;
+      padding-bottom: 10px;
+      padding-top: 20px;
+
+      a {
+        display: inline-block;
+      }
+      li {
+        width: 48px;
+        height: 48px;
+        max-width: 48px;
+        margin-right: 20px;
+      }
+      .fb {   background: url($fb) 0 0 no-repeat; }
+      .tw {   background:url($tw) 0 0 no-repeat; }
+      .yt {   background:url($yt) 0 0 no-repeat; }
+      .link { background: url($link) 0 0 no-repeat; }
+    }
+  } // end jumbotron-caption
+
+  .title {
+    // margin: 50px 0 30px 0;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+    h2{
+      font-size: 25px;
+    }
+    small {
+      display: block;
+      font-size: 18px;
+      text-transform: capitalize;
+    }
+  } // end title
+
+
+  .whatsnew {
+    height: auto;
+    background: whitesmoke;
+    text-align: center;
+    .title{
+      @extend .title;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      h2{
+        margin-top: 0;
+      }
+    }
+
+/*     .macbook-wrapper{
+      text-align: center;
+      background: url('../img/content/home/macbook.png') top center no-repeat;
+      padding-top: 40px;
+      center{
+        display: block;
+        text-align: -webkit-center;
+      }
+    } */
+
+/*     .macbook-wrapper{
+      background: url('../img/content/home/macbook.png') no-repeat;
+
+      .fluid-width-video-wrapper {
+        width: 97.5%;
+        background: #000;
+      }
+    } */
+
+/*     .macbook-wrapper{
+      background: url('../img/content/home/macbook.png') no-repeat;
+      width: 1034px;
+      height: 543px;
+    }
+    .fluid-width-video-wrapper {
+        top: 31px;
+        left: 158px;
+        position: relative;
+    } */
+
+/*     div.macbook-wrapper {
+      position: relative;
+      padding-top: 25px;
+      padding-bottom: 67.5%;
+
+      iframe {
+        background: url('../img/content/home/macbook.png') center center no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+      }
+    } */
+
+    .macbook-wrapper {
+       max-width: 1034px;
+       max-height: 543px;
+       margin: 0 auto;
+
+      .inner-macbook {
+          position: relative;
+          padding-top: 25px;
+          padding-bottom: 67.5%;
+          height: 0;
+
+          iframe {
+              background: url('../img/content/home/macbook.png') center center no-repeat;
+              background-size: contain;
+              position: absolute;
+              background-color: #fff;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              box-sizing: border-box;
+              padding: 11.9% 15.5% 14.8%;
+          }
+      }
+    }
+
+  }// end whatsnew
+
+  .classroom {
+    .title {
+      @extend .title;
+      margin: 50px 0 30px 0;
+    } // end title
   }
-} // end panel
+
+}
+
 
 
 // mobile/tablet stylings
@@ -60,10 +236,17 @@
 
   .home {
 
+    .jumbotron-caption{
+        ul.social{
+          float: left;
+        }
+      }
+
     .jumbotron {
       border-radius: 0;
       margin-bottom: 0;
       background: url('../img/layout/cover/top.jpg') no-repeat center top fixed;
+      height: auto;
 
       .content {
         margin-top: 10%;
@@ -91,7 +274,8 @@
             }
           }
         }
-      }
+      } // end jumbptron
+
       .iphone-wrapper{
         margin-bottom: -50px;
         float: right;
@@ -113,67 +297,6 @@
           }
         }
       }
-    }
-
-    .jumbotron-caption{
-      padding-top: 40px;
-      padding-bottom: 20px;
-      padding-left: 30px;
-      padding-right: 30px;
-      font-size: 1.25em;
-      background: $rit-darkgray;
-      color: white;
-      .social {
-        $social-icon : '../img/content/icons/square/';
-        $ext  : '_square@2x.png';
-        $fb   : $social-icon + 'facebook' + $ext;
-        $tw   : $social-icon + 'twitter' + $ext;
-        $yt   : $social-icon + 'youtube' + $ext;
-        $link : $social-icon + 'thelink' + $ext;
-
-        margin-bottom: 0;
-        padding-bottom: 10px;
-        padding-top: 20px;
-
-        a {
-          display: inline-block;
-        }
-
-
-        li {
-          width: 48px;
-          height: 48px;
-          max-width: 48px;
-          margin-right: 20px;
-        }
-        .fb {   background: url($fb) 0 0 no-repeat; }
-        .tw {   background:url($tw) 0 0 no-repeat; }
-        .yt {   background:url($yt) 0 0 no-repeat; }
-        .link { background: url($link) 0 0 no-repeat; }
-      }
-    }
-
-
-    .classroom {
-
-      .title {
-        margin: 50px 0 30px 0;
-        font-weight: 500;
-        line-height: 1.5;
-        text-align: center;
-        text-transform: uppercase;
-        h2{
-          font-size: 25px;
-        }
-        small {
-          display: block;
-          font-size: 18px;
-          text-transform: capitalize;
-        }
-      } // end title
-
-
-
     }
   }
 }//end mobile stylings
