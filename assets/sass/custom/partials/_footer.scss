@@ -1,49 +1,72 @@
 footer.footer{
+  color: white;
+
   .learnmore-footer{
     background-color: $rit-darkgray;
-    height: 100%;
-    padding: 15px;
+    padding: 2em 4em 4em 4em;
     text-align: center;
-    color: white;
     h2{
-      margin-top: 35px;
-      padding-bottom: 50px;
+      margin-bottom: 5em;
+      text-transform: uppercase;
     }
 
-    a{
-      // margin: 0 25px;
-      font-weight: 300;
-      display: inline-block;
-      color: white;
-      height: auto;
-      span{
-        display: block;
-        padding-top:75px;
+    ul {
+      display: block;
+      width: 100%;
+      li {
+        a {
+          font-weight: 300;
+          color: white;
+          padding-top: 6em;
+          &.browser { background: url('../img/layout/footer/browser.png')  50% 0 no-repeat; }
+          &.schedule { background: url('../img/layout/footer/schedule.png') 50% 0 no-repeat; }
+          &.mail { background: url('../img/layout/footer/email.png')    105% 0 no-repeat; text-align:right; }
+        }
       }
     }
-
-    a.browser  { background: url('../img/layout/footer/browser.png')  50% 0 no-repeat; }
-    a.schedule { background: url('../img/layout/footer/schedule.png') 50% 0 no-repeat; }
-    a.mail     { background: url('../img/layout/footer/email.png')    50% 0 no-repeat; text-align:right; }
 
   } // end learnmore
 
   .stayconnected-footer{
-    background-color: #f3823d;
+    background-color: $rit-orange;
     height: auto;
     color: white;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    h2{
-      margin-top: 0;
+    padding: 4em 0 4em 0;
+
+    h2{ margin-top: 0; }
+    h2 a { text-decoration: underline; }
+    a { color: inherit; }
+
+    ul.social-circle {
+      margin-top: 2em;
+      a{
+        padding: 50px 50px 0 17px;
+      }
+      .fb { background: url('../img/content/icons/circle/facebook@2x.png') no-repeat; }
+      .ig { background: url('../img/content/icons/circle/instagram@2x.png') no-repeat; }
+      .tw { background: url('../img/content/icons/circle/twitter@2x.png') no-repeat; }
+      .yt { background: url('../img/content/icons/circle/youtube@2x.png') no-repeat; }
+      li {
+        margin: 50px 15px 0 0;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
     }
+
   } // end stayconnected
 
   .rit-footer{
     background-color: black;
     height: 100px;
     margin-top: 0;
+
+    .row {
+      padding-top: 1em;
+      margin: 0 1em 0 1em;
+    }
+
   } // end rit
 
 
@@ -52,7 +75,28 @@ footer.footer{
       h2{
         font-size: 20px;
       }
+    } // end stayconnected
+
+    .learnmore-footer {
+      li {
+        margin: 70px 0 70px 0;
+        &:first-child {
+          margin-top: 0;
+        }
+        &:last-child {
+          margin-bottom: 0;
+        }
+        a {
+          font-size: 30px;
+          padding-top: 3em !important;
+
+          &.mail {
+            background-position: 0 0 !important;
+          }
+        }
+      }
     }
-  }
+
+  } // end small styles
 
 }

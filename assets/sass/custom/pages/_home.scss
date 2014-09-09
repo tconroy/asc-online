@@ -9,12 +9,12 @@
     max-width: 450px;
     margin: 0 auto;
     margin-bottom: 30px;
-    &.blue   {background: rgb(61, 178, 229);}
-    &.green  {background: rgb(51, 181, 138);}
-    &.orange {background: rgb(243, 130, 61);}
-    &.yellow {background: rgb(254, 212, 87);}
-    &.red    {background: rgb(225, 57, 57);}
-    &.gray   {background: rgb(97, 100, 116);}
+    &.blue   { background: rgb(61, 178, 229); }
+    &.green  { background: rgb(51, 181, 138); }
+    &.orange { background: rgb(243, 130, 61); }
+    &.yellow { background: rgb(254, 212, 87); }
+    &.red    { background: rgb(225, 57, 57);  }
+    &.gray   { background: rgb(97, 100, 116); }
     img{
       margin: 0 auto;
       padding: 30px;
@@ -96,17 +96,16 @@
   } // end jumbotron-caption
 
   .title {
-    // margin: 50px 0 30px 0;
     font-weight: 500;
     line-height: 1.5;
     text-align: center;
     text-transform: uppercase;
     h2{
-      font-size: 25px;
+      font-size: 36px;
     }
     small {
       display: block;
-      font-size: 18px;
+      font-size: 20px;
       text-transform: capitalize;
     }
   } // end title
@@ -114,68 +113,21 @@
 
   .whatsnew {
     height: auto;
-    background: whitesmoke;
+    background: $rit-lightgray;
     text-align: center;
     .title{
       @extend .title;
-      margin-top: 50px;
-      margin-bottom: 50px;
+      margin-top: 4em;
       h2{
         margin-top: 0;
       }
     }
 
-/*     .macbook-wrapper{
-      text-align: center;
-      background: url('../img/content/home/macbook.png') top center no-repeat;
-      padding-top: 40px;
-      center{
-        display: block;
-        text-align: -webkit-center;
-      }
-    } */
-
-/*     .macbook-wrapper{
-      background: url('../img/content/home/macbook.png') no-repeat;
-
-      .fluid-width-video-wrapper {
-        width: 97.5%;
-        background: #000;
-      }
-    } */
-
-/*     .macbook-wrapper{
-      background: url('../img/content/home/macbook.png') no-repeat;
-      width: 1034px;
-      height: 543px;
-    }
-    .fluid-width-video-wrapper {
-        top: 31px;
-        left: 158px;
-        position: relative;
-    } */
-
-/*     div.macbook-wrapper {
-      position: relative;
-      padding-top: 25px;
-      padding-bottom: 67.5%;
-
-      iframe {
-        background: url('../img/content/home/macbook.png') center center no-repeat;
-        background-size: contain;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        box-sizing: border-box;
-      }
-    } */
-
     .macbook-wrapper {
        max-width: 1034px;
        max-height: 543px;
        margin: 0 auto;
+       display: initial;
 
       .inner-macbook {
           position: relative;
@@ -184,16 +136,16 @@
           height: 0;
 
           iframe {
-              background: url('../img/content/home/macbook.png') center center no-repeat;
-              background-size: contain;
-              position: absolute;
-              background-color: #fff;
               top: 0;
               left: 0;
               width: 100%;
               height: 100%;
-              box-sizing: border-box;
               padding: 11.9% 15.5% 14.8%;
+              box-sizing: border-box;
+              background: url('../img/content/home/macbook.png') center center no-repeat;
+              background-size: contain;
+              position: absolute;
+              background-color: $rit-lightgray;
           }
       }
     }
@@ -201,10 +153,20 @@
   }// end whatsnew
 
   .classroom {
+    margin-bottom: 4em;
+
     .title {
       @extend .title;
-      margin: 50px 0 30px 0;
     } // end title
+
+    .title-cont {
+      margin: 4em 0 4em 0;
+    }
+
+    .lcf {
+      margin-bottom: 4em;
+    }
+
   }
 
 }

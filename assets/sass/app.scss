@@ -4,6 +4,7 @@
 
 $bootstrap-sass-asset-helper: false;
 @import "custom/custom-mixins";
+@import "custom/partials/helpers";
 @import "custom/custom-variables";
 @import "custom/custom-bootstrap";
 @import "custom/partials/navbar";
