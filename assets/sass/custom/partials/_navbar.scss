@@ -1,3 +1,4 @@
+// desktop
 @media screen and (min-width: $screen-sm){
 
 .asco-banner{
@@ -29,12 +30,13 @@
    }
 
    .navbar-brand{
-      background: url(../img/layout/logo/ascoLogoDesktop.png) 0 40% no-repeat;
-      height: 80px;
-      padding-bottom: 0;
-      padding-right: 150px;
-      padding-left: 5%;
+      background: url(../img/layout/logo/asc-online.png) 0 40% no-repeat;
       line-height: 80px;
+      clear: both;
+      width: auto; height: auto;
+      background-size: 100%;
+      padding: 3em;
+      margin-top: 0;
       .logo-title, .logo-sub{
          display: none;
       }
@@ -150,10 +152,12 @@
       }
       .navbar-header{
          height: 100%;
+         padding: 25px;
 
          .navbar-toggle {
-            margin-top: 17px;
             border:none;
+            margin: 0;
+            padding: 10px;
 
             .icon-bar{
                margin-bottom: 10px;
@@ -182,29 +186,18 @@
          }
 
          .navbar-brand{
-            background: url(../img/layout/logo/ascoLogoMobile.png) 0 10px no-repeat;
-            padding-left: 80px;
-            height: 81%;
-            overflow: auto;
-            margin: auto 0;
-            margin-left: 15px;
-            margin-top: 5px;
-            text-transform: uppercase;
-            font-weight: lighter;
-            line-height: 1.4;
-            color: white;
+            background: url('../img/layout/logo/asc-online.png') 0 0 no-repeat;
+            background-size: cover;
+            padding: 40px;
+            margin: -15px 0 0 0;
 
-            .logo-title{
-               font-size: 20px;
-               font-weight: 500;
-               display: block;
-               letter-spacing: 0.4px;
-            }
-
-            .logo-sub{
-               font-size: 15px;
-               display: block;
-            }
+            // background: url(../img/layout/logo/ascoLogoMobile.png) 0 10px no-repeat;
+            // padding-left: 80px;
+            // height: 81%;
+            // overflow: auto;
+            // margin: auto 0;
+            // margin-left: 15px;
+            // margin-top: 5px;
          }
       }
    }

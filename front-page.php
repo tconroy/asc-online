@@ -17,6 +17,7 @@
               <a href="#" class="btn btn-holo">Learn How</a>
             </p>
           </div>
+          <!--
           <div class="col-xs-6">
             <div class="iphone-wrapper visible-xs">
               <img class="iphone" src="<?php echo get_template_directory_uri() ?>/assets/img/content/home/iphone.png" alt="">
@@ -25,7 +26,7 @@
                 <p>ASC Online</p>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
