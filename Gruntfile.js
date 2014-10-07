@@ -11,6 +11,8 @@ module.exports = function(grunt) {
       all: [
         'Gruntfile.js',
         'assets/js/*.js',
+        'assets/js/pages/*.js',
+        'assets/js/partials/*.js',
         '!assets/js/scripts.min.js',
         '!assets/js/libs.min.js'
       ]
@@ -34,8 +36,12 @@ module.exports = function(grunt) {
     uglify: {
       dist: {
         files: {
-          'assets/js/scripts.min.js': ['assets/js/_*.js'],
-          'assets/js/libs.min.js':    [
+          'assets/js/scripts.min.js': [
+            'assets/js/partials/*.js',
+            'assets/js/pages/*.js',
+            'assets/js/_*.js'
+          ],
+          'assets/js/libs.min.js': [
             'assets/js/plugins/bootstrap/tooltip.js',
             'assets/js/plugins/**/*.js'
           ]

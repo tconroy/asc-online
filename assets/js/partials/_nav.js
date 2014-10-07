@@ -2,7 +2,7 @@
 var Nav = {
 
   init: function () {
-    console.log('nav init');
+    console.log('Nav::init()');
     Nav.bindPlugins();
     Nav.bindEvents();
     // set initial view class

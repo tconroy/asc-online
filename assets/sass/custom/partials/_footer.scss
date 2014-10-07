@@ -1,30 +1,31 @@
 footer.footer{
   color: white;
+  background: $rit-darkgray;
 
   .learnmore-footer{
-    background-color: $rit-darkgray;
     padding: 2em 4em 4em 4em;
     text-align: center;
     h2{
-      margin-bottom: 5em;
+      margin-bottom: 4em;
       text-transform: uppercase;
     }
 
-    ul {
-      display: block;
-      width: 100%;
-      li {
-        a {
-          font-weight: 300;
-          color: white;
-          padding-top: 6em;
-          &.browser { background: url('../img/layout/footer/browser.png')  50% 0 no-repeat; }
-          &.schedule { background: url('../img/layout/footer/schedule.png') 50% 0 no-repeat; }
-          &.mail { background: url('../img/layout/footer/email.png')    105% 0 no-repeat; text-align:right; }
+    div {
+      a {
+        font-weight: 300;
+        color: white;
+        padding: 5em 1em 1em 1em;
+        &.browser {
+          background: url('../img/layout/footer/browser.png')  50% 0 no-repeat;
+        }
+        &.schedule {
+          background: url('../img/layout/footer/schedule.png') 25% 0 no-repeat;
+        }
+        &.mail {
+          background: url('../img/layout/footer/email2.png')    50% 0 no-repeat;
         }
       }
     }
-
   } // end learnmore
 
   .stayconnected-footer{
@@ -34,12 +35,12 @@ footer.footer{
     text-align: center;
     padding: 4em 0 4em 0;
 
-    h2{ margin-top: 0; }
+    h2{ margin-top: 0; margin-bottom: 1.5em; }
     h2 a { text-decoration: underline; }
     a { color: inherit; }
 
     ul.social-circle {
-      margin-top: 2em;
+      margin-bottom: 2em;
       a{
         padding: 50px 50px 0 17px;
       }
@@ -59,12 +60,13 @@ footer.footer{
 
   .rit-footer{
     background-color: black;
-    height: 100px;
+    // height: 100px;
     margin-top: 0;
 
-    .row {
-      padding-top: 1em;
-      margin: 0 1em 0 1em;
+    small {
+      display: table-cell;
+      vertical-align: middle;
+      line-height: 55px;
     }
 
   } // end rit
@@ -75,25 +77,14 @@ footer.footer{
       h2{
         font-size: 20px;
       }
+      div {
+        display: block;
+      }
     } // end stayconnected
 
     .learnmore-footer {
-      li {
-        margin: 70px 0 70px 0;
-        &:first-child {
-          margin-top: 0;
-        }
-        &:last-child {
-          margin-bottom: 0;
-        }
-        a {
-          font-size: 30px;
-          padding-top: 3em !important;
-
-          &.mail {
-            background-position: 0 0 !important;
-          }
-        }
+      a {
+        margin: -5em;
       }
     }
 

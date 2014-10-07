@@ -18,11 +18,11 @@
     }
   ?>
 
-  <div class="wrap" role="document">
-    <div class="content">
-      <!-- <main class="main <?php echo roots_main_class(); ?>" role="main"> -->
-      <main class="main" role="main">
+  <div class="wrap container" role="document">
+    <div class="content row">
+      <main class="main <?php echo roots_main_class(); ?>" role="main">
         <?php include roots_template_path(); ?>
+        this is base community.php
       </main><!-- /.main -->
       <?php if (roots_display_sidebar()) : ?>
         <aside class="sidebar <?php echo roots_sidebar_class(); ?>" role="complementary">
@@ -30,14 +30,6 @@
         </aside><!-- /.sidebar -->
       <?php endif; ?>
     </div><!-- /.content -->
-
-      <!-- mandatory -->
-    <div class="device-xs visible-xs"></div>
-    <div class="device-sm visible-sm"></div>
-    <div class="device-md visible-md"></div>
-    <div class="device-lg visible-lg"></div>
-    <!-- end mandatory -->
-
   </div><!-- /.wrap -->
 
   <?php get_template_part('templates/asco-footer'); ?>

@@ -11,6 +11,7 @@
     do_action('get_header');
     // Use Bootstrap's navbar if enabled in config.php
     if (current_theme_supports('bootstrap-top-navbar')) {
+      get_template_part('templates/header-top-rit-navbar');
       get_template_part('templates/header-top-navbar');
     } else {
       get_template_part('templates/header');
@@ -21,6 +22,7 @@
     <div class="content row">
       <main class="main <?php echo roots_main_class(); ?>" role="main">
         <?php include roots_template_path(); ?>
+        this is base.php
       </main><!-- /.main -->
       <?php if (roots_display_sidebar()) : ?>
         <aside class="sidebar <?php echo roots_sidebar_class(); ?>" role="complementary">
@@ -30,7 +32,7 @@
     </div><!-- /.content -->
   </div><!-- /.wrap -->
 
-  <?php get_template_part('templates/footer'); ?>
+  <?php get_template_part('templates/asco-footer'); ?>
 
 </body>
 </html>

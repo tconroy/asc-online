@@ -9,6 +9,10 @@
     max-width: 450px;
     margin: 0 auto;
     margin-bottom: 30px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     &.blue   { background: rgb(61, 178, 229); }
     &.green  { background: rgb(51, 181, 138); }
     &.orange { background: rgb(243, 130, 61); }
@@ -35,13 +39,11 @@
     background: url('../img/layout/cover/top.jpg') no-repeat center top;
     height: auto;
     background-size: 100%;
-    transform: translateZ(0);
     padding: 0;
     margin-bottom: 0;
 
     .container {
-      padding-top: 8%;
-      padding-bottom: 5%;
+      padding: 40px 30px 40px 30px;
     }
 
     .content{
@@ -117,7 +119,7 @@
     text-align: center;
     .title{
       @extend .title;
-      margin-top: 4em;
+      padding-top: 4em;
       h2{
         margin-top: 0;
       }
@@ -135,7 +137,19 @@
           padding-bottom: 67.5%;
           height: 0;
 
-          iframe {
+/*           iframe {
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              padding: 11.9% 15.5% 14.8%;
+              box-sizing: border-box;
+              background: url('../img/content/home/macbook.png') center center no-repeat;
+              background-size: contain;
+              position: absolute;
+              background-color: $rit-lightgray;
+          } */
+          .vid-wrap {
               top: 0;
               left: 0;
               width: 100%;
@@ -154,6 +168,22 @@
 
   .classroom {
     margin-bottom: 4em;
+    .panel{
+      &:hover{
+        background: white;
+        img {
+          -webkit-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+          -webkit-filter: invert(100%);
+          filter: invert(100%);
+        }
+        a{
+          color: $rit-orange;
+        }
+      }
+    }
 
     .title {
       @extend .title;
@@ -186,7 +216,7 @@
   .wrap {
     padding-left: 0;
     padding-right: 0;
-    margin-top: 100px;
+    // margin-top: 100px;
   }
 
   .content {
@@ -210,12 +240,13 @@
       background: url('../img/layout/cover/top.jpg') no-repeat center top fixed;
       height: auto;
 
+      .container {
+        padding-top: 125px;
+      }
+
       .content {
-        margin-top: 10%;
         @media (max-width: $screen-xs) {
-          p{
-            font-size: 25px;
-          }
+          p{ font-size: 25px; }
         }
 
         p{

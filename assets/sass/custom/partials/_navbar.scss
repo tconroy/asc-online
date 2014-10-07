@@ -12,6 +12,13 @@
       li{
          height: 80px;
          padding-right: 15px;
+            &:hover {
+               a {
+                  border-bottom: 3px solid lighten($asc-orange, 15%);
+                  height: 60px;
+               }
+            }
+
          &.active{
             background: none;
             a{
@@ -136,13 +143,15 @@
                }
                &:hover{
                   a{
-                     background: $rit-orange;
+                     //background: $rit-orange;
+                     background: darken($rit-orange, 10%);
                   }
                }
                &.active{
                   a{
                      // background: #f8571c;
-                     background: lighten($rit-orange, 10%);
+                     //background: lighten($rit-orange, 10%);
+                     background: $rit-darkgray;
                   }
                }
             }
@@ -190,14 +199,6 @@
             background-size: cover;
             padding: 40px;
             margin: -15px 0 0 0;
-
-            // background: url(../img/layout/logo/ascoLogoMobile.png) 0 10px no-repeat;
-            // padding-left: 80px;
-            // height: 81%;
-            // overflow: auto;
-            // margin: auto 0;
-            // margin-left: 15px;
-            // margin-top: 5px;
          }
       }
    }

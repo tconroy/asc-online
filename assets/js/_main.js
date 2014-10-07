@@ -28,7 +28,7 @@ var Roots = {
   // Home page
   home: {
     init: function() {
-      // JavaScript to be fired on the home page
+      Home.init();
     }
   },
   // About us page, note the change from about-us to about_us.
