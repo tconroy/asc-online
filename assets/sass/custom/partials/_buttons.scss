@@ -6,9 +6,24 @@
   display:block;
   color: white;
   background: none;
-
   &:hover{
     background: $rit-orange;
     border: 2px solid $rit-orange;
+  }
+  &.fullwidth {
+    width: 100%;
+  }
+}
+
+.btn-holo-dark {
+  @extend .btn-holo;
+  margin-top: 0;
+  border: 2px solid black;
+  color: black;
+  display: inline-block;
+
+  &.active {
+    color: white;
+    background: black;
   }
 }

@@ -1,0 +1,118 @@
+// Dekstop Styles
+  .orange-overlay {
+    background-color: $rit-orange;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    -moz-opacity: 20%;
+    -webkit-opacity: 20%;
+    z-index: 0;
+  }
+
+.jumbotron {
+
+  &.home {
+    background: url('../img/layout/cover/top.jpg') no-repeat center top;
+    background-size: cover;
+  }
+  &.community {
+    background: url('../img/layout/cover/community.jpg') no-repeat center top;
+    background-size: cover;
+    background-position: 0% 25%;
+  }
+
+  height: auto;
+  padding: 0;
+  margin-bottom: 0;
+  .container { padding: 80px 30px 80px 30px; }
+  .content {
+    color: white;
+    p { font-size: 30px; margin: 0;
+      span {
+        display:block;
+        font-size: 40px;
+      }
+    }
+  }
+} // end jumbotron
+
+.jumbotron-caption {
+  padding-top:    40px;
+  padding-bottom: 20px;
+  padding-left:   30px;
+  padding-right:  30px;
+  font-size:      1.25em;
+  background:     $rit-darkgray;
+  color:          white;
+  .social {
+    margin-bottom:  0;
+    padding-bottom: 10px;
+    padding-top:    20px;
+    float: right;
+
+    $social-icon : '../img/content/icons/square/';
+    $ext  : '_square@2x.png';
+    $fb   : $social-icon + 'facebook' + $ext;
+    $tw   : $social-icon + 'twitter' + $ext;
+    $yt   : $social-icon + 'youtube' + $ext;
+    $link : $social-icon + 'thelink' + $ext;
+
+    a { display: inline-block; }
+    li { max-width: 48px; width: 48px; height: 48px; margin-right: 20px; }
+    .fb {   background: url($fb) 0 0 no-repeat; }
+    .tw {   background:url($tw) 0 0 no-repeat; }
+    .yt {   background:url($yt) 0 0 no-repeat; }
+    .link { background: url($link) 0 0 no-repeat; }
+  } // end social
+
+} // end jumbotron-caption
+
+
+// Mobile Styles
+@media (max-width: $screen-sm - 1px){
+
+  .jumbotron-caption {
+    ul.social{
+      float: left;
+    }
+  }
+
+  .jumbotron {
+    border-radius: 0;
+    margin-bottom: 0;
+    background: url('../img/layout/cover/top.jpg') no-repeat center top fixed;
+    height: auto;
+
+    &.home {
+      .container {
+        padding-top: 120px;
+      }
+    }
+
+    .content {
+      @media (max-width: $screen-xs) {
+        p{ font-size: 25px; }
+      }
+
+      p{
+        font-size: 35px;
+        color: white;
+        a {
+          margin-top: 10%;
+          width: 125px;
+          border: 2px solid white;
+          border-radius: 0;
+          display:block;
+          color: white;
+          background: none;
+
+          &:hover{
+            background: $rit-orange;
+            border: 2px solid $rit-orange;
+          } // end hover
+        } // end <p>
+      } // end jumbotron
+    } // end mobile
+  }
+}

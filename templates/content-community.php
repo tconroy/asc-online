@@ -1,4 +1,9 @@
-<?php while (have_posts()) : the_post(); ?>
-  <?php the_content(); ?>
-  <?php wp_link_pages(array('before' => '<nav class="pagination">', 'after' => '</nav>')); ?>
-<?php endwhile; ?>
+<article <?php post_class(); ?>>
+  <header>
+    <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+    <?php get_template_part('templates/community-entry-meta'); ?>
+  </header>
+  <div class="entry-summary">
+    <?php the_excerpt(); ?>
+  </div>
+</article>

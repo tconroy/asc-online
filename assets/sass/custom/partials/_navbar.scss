@@ -7,6 +7,11 @@
    background-color: white;
    border: none;
    text-transform: uppercase;
+   -webkit-transform: translateZ(0);
+
+   .container {
+      height: 100%;
+   }
 
    ul#menu-primary-navigation{
       li{
@@ -119,7 +124,6 @@
    border-bottom: none;
 
    .container {
-      height: 100%;
 
       .navbar-collapse{
          border-top: none;

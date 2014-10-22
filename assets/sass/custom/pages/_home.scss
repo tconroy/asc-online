@@ -35,67 +35,6 @@
     }
   } // end panel
 
-  .jumbotron {
-    background: url('../img/layout/cover/top.jpg') no-repeat center top;
-    height: auto;
-    background-size: 100%;
-    padding: 0;
-    margin-bottom: 0;
-
-    .container {
-      padding: 40px 30px 40px 30px;
-    }
-
-    .content{
-      color: white;
-      p{
-        font-size: 30px;
-        margin: 0;
-        span{
-          display:block;
-          font-size: 40px;
-        }
-      }
-    }
-  } // end jumbotron
-
-  .jumbotron-caption{
-    padding-top: 40px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 1.25em;
-    background: $rit-darkgray;
-    color: white;
-    .social {
-      $social-icon : '../img/content/icons/square/';
-      $ext  : '_square@2x.png';
-      $fb   : $social-icon + 'facebook' + $ext;
-      $tw   : $social-icon + 'twitter' + $ext;
-      $yt   : $social-icon + 'youtube' + $ext;
-      $link : $social-icon + 'thelink' + $ext;
-
-      float: right;
-
-      margin-bottom: 0;
-      padding-bottom: 10px;
-      padding-top: 20px;
-
-      a {
-        display: inline-block;
-      }
-      li {
-        width: 48px;
-        height: 48px;
-        max-width: 48px;
-        margin-right: 20px;
-      }
-      .fb {   background: url($fb) 0 0 no-repeat; }
-      .tw {   background:url($tw) 0 0 no-repeat; }
-      .yt {   background:url($yt) 0 0 no-repeat; }
-      .link { background: url($link) 0 0 no-repeat; }
-    }
-  } // end jumbotron-caption
 
   .title {
     font-weight: 500;
@@ -137,18 +76,6 @@
           padding-bottom: 67.5%;
           height: 0;
 
-/*           iframe {
-              top: 0;
-              left: 0;
-              width: 100%;
-              height: 100%;
-              padding: 11.9% 15.5% 14.8%;
-              box-sizing: border-box;
-              background: url('../img/content/home/macbook.png') center center no-repeat;
-              background-size: contain;
-              position: absolute;
-              background-color: $rit-lightgray;
-          } */
           .vid-wrap {
               top: 0;
               left: 0;
@@ -228,47 +155,6 @@
 
   .home {
 
-    .jumbotron-caption{
-        ul.social{
-          float: left;
-        }
-      }
-
-    .jumbotron {
-      border-radius: 0;
-      margin-bottom: 0;
-      background: url('../img/layout/cover/top.jpg') no-repeat center top fixed;
-      height: auto;
-
-      .container {
-        padding-top: 125px;
-      }
-
-      .content {
-        @media (max-width: $screen-xs) {
-          p{ font-size: 25px; }
-        }
-
-        p{
-          font-size: 35px;
-          color: white;
-          a {
-            margin-top: 10%;
-            width: 125px;
-            border: 2px solid white;
-            border-radius: 0;
-            display:block;
-            color: white;
-            background: none;
-
-            &:hover{
-              background: $rit-orange;
-              border: 2px solid $rit-orange;
-            }
-          }
-        }
-      } // end jumbptron
-
       .iphone-wrapper{
         margin-bottom: -50px;
         float: right;
@@ -291,5 +177,4 @@
         }
       }
     }
-  }
 }//end mobile stylings

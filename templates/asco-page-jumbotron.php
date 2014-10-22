@@ -1,4 +1,7 @@
-<div class="home jumbotron">
+
+<div style="position: relative;">
+<div class="orange-overlay"></div>
+<div class="community jumbotron">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -14,13 +17,16 @@
       </div>
     </div>
   </div>
+  </div>
 
-  <div class="home jumbotron-caption">
+  <div class="community jumbotron-caption">
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-6">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis fuga doloremque sunt est labore, repellendus quas officia minima. Ea, eos, quos! Vitae rerum, a pariatur explicabo, non eveniet accusamus error?
+            College is hard... We are here to help! The ASC Is here to help you
+            figure out how to make college just a little bit easier. Follow us as
+            we blog, film, tweet, post, and assit you on your academic journey!
           </p>
         </div>
         <div class="col-xs-12 col-sm-6">
