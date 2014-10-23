@@ -1,0 +1,9 @@
+// custom styling for disqus comment area
+#disqus_thread {
+  padding: 2em;
+
+  li.tab-conversation {
+    border-bottom-color: red !important;
+  }
+
+}

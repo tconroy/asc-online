@@ -21,8 +21,8 @@
       <?php get_template_part('templates/asco', 'page-jumbotron') ?>
       <div class="wrap home container" role="document">
         <div class="content row col-sm-12">
-          <div class="col-sm-12 text-center">
-            <h1>What's New <br> <small>ASC Sneak Peek</small></h1>
+          <div class="col-sm-12 text-center" style="margin-top: 2em; margin-bottom: 5em;">
+            <h1 style="margin-bottom:1em;">What's New <br> <small>ASC Sneak Peek</small></h1>
               <div class="col-sm-4"><a class="btn btn-holo-dark fullwidth active" href="/community">ASC Blog</a></div>
               <div class="col-sm-4"><a class="btn btn-holo-dark fullwidth" href="/community/twitter">Twitter</a></div>
               <div class="col-sm-4"><a class="btn btn-holo-dark fullwidth" href="/community/facebook">Facebook</a></div>
