@@ -36,6 +36,11 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on the about us page
     }
+  },
+  facebook: {
+    init: function() {
+      Facebook.init();
+    }
   }
 };
 

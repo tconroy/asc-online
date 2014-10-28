@@ -43,7 +43,7 @@ module.exports = function(grunt) {
           ],
           'assets/js/libs.min.js': [
             'assets/js/plugins/bootstrap/tooltip.js',
-            'assets/js/plugins/**/*.js'
+            'assets/js/plugins/**/*.js',
           ]
         },
         options: {
