@@ -4,6 +4,8 @@
 
 $bootstrap-sass-asset-helper: false;
 
+// reset
+@import "custom/custom-reset";
 // mixins
 @import "custom/custom-mixins";
 // config
@@ -15,16 +17,15 @@ $bootstrap-sass-asset-helper: false;
 @import "custom/partials/footer";
 @import "custom/partials/buttons";
 @import "custom/partials/jumbotron";
+@import "custom/partials/sidebar";
+// plugins
 @import "custom/partials/ajax-feed";
 @import "custom/partials/disqus";
-
-// plugins
 @import "custom/partials/lazyYT";
 @import "custom/partials/animate";
-// font awesome? <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-
 // page-specific styling
 @import "custom/pages/home";
+@import "custom/pages/single"; // single post page
 
 /* ==========================================================================
    Base

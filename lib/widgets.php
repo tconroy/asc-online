@@ -18,8 +18,8 @@ function roots_widgets_init() {
     'id'            => 'sidebar-single',
     'before_widget' => '<section class="widget sticky %1$s %2$s">',
     'after_widget'  => '</section>',
-    'before_title'  => '<h3>',
-    'after_title'   => '</h3>'
+    'before_title'  => '<h4>',
+    'after_title'   => '</h4>'
   ));
 
   register_sidebar(array(

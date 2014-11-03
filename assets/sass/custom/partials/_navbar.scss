@@ -37,6 +37,7 @@
             line-height: 80px;
             padding: 0;
             background: none;
+            -webkit-backface-visibility: hidden;
          }
       }
    }
