@@ -1,4 +1,18 @@
 aside.sidebar {
+  .widget {
+    margin-top: 2em;
+  }
+
+  a {
+    &:link {
+      color: $asc-orange;
+    }
+
+    img {
+      padding-right: 25%;
+      @extend .img-responsive;
+    }
+  }
 
   a.a2a_button_facebook:hover,
   a.a2a_button_twitter:hover,
@@ -10,4 +24,16 @@ aside.sidebar {
 
 aside.sidebar ul {
   list-style-type: none;
+  li {
+    margin: 0.5em 0 0.5em 0;
+  }
+}
+
+.crp_related_widget {
+  .crp_date {
+    display: block;
+    font-weight: light;
+    font-style: italic;
+    color: $rit-darkgray;
+  }
 }

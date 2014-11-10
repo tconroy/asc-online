@@ -1,0 +1,11 @@
+// display an icon before the disqus comment count
+.disqus-comment-count:before {
+    content: "";
+    background: url('../img/posts/comment-bubble.png') no-repeat;
+    width: 16px;
+    height: 14px;
+    padding-bottom: 14px;
+    margin-right: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
