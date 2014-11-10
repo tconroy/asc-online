@@ -25,17 +25,17 @@
           <div class="text-center">
             <h1>What's New</h1>
             <h4>ASC Sneak Peak</h4>
-              <div class="col-sm-4"><a class="btn btn-holo-dark fullwidth active" href="/community">ASC Blog</a></div>
-              <div class="col-sm-4"><a class="btn btn-holo-dark fullwidth" href="/community/twitter">Twitter</a></div>
-              <div class="col-sm-4"><a class="btn btn-holo-dark fullwidth" href="/community/facebook">Facebook</a></div>
+              <div class="col-sm-4"><a class="btn btn-holo-dark bigCommBtn active" href="/community">ASC Blog</a></div>
+              <div class="col-sm-4"><a class="btn btn-holo-dark bigCommBtn" href="/community/twitter">Twitter</a></div>
+              <div class="col-sm-4"><a class="btn btn-holo-dark bigCommBtn" href="/community/facebook">Facebook</a></div>
           </div>
         </div>
         <div class="content row col-sm-12">
-          <div class="col-sm-8">
+          <div class="col-sm-9">
             <?php include roots_template_path(); ?>
           </div><!-- /.main -->
           <?php if (roots_display_sidebar()) : ?>
-            <aside class="sidebar col-md-4 <?php //echo roots_sidebar_class(); ?>" role="complementary">
+            <aside class="sidebar col-md-3 <?php //echo roots_sidebar_class(); ?>" role="complementary">
               <?php include roots_sidebar_path(); ?>
             </aside><!-- /.sidebar -->
           <?php endif; ?>

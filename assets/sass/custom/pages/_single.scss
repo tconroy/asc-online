@@ -1,6 +1,13 @@
 article.post {
   padding-bottom: 80px;
 
+  header.avatar {
+    display: inline !important;
+    margin-right: 15px !important;
+    margin-top: 5px !important;
+    float: left !important;
+  }
+
   ul, ol {
     margin-left: 2em;
   }

@@ -23,6 +23,12 @@ var Roots = {
   common: {
     init: function() {
       Nav.init();
+      $.fn.almComplete = function(alm) {
+        // on complete, refresh.
+        console.log('reloading..');
+        DISQUSWIDGETS = undefined;
+        $.getScript("http://" + disqus_shortname + ".disqus.com/count.js");
+      };
     }
   },
   // Home page
@@ -35,6 +41,11 @@ var Roots = {
   about_us: {
     init: function() {
       // JavaScript to be fired on the about us page
+    }
+  },
+  community: {
+    init: function () {
+      Community.init();
     }
   },
   facebook: {
@@ -56,7 +67,6 @@ var UTIL = {
   },
   loadEvents: function() {
     UTIL.fire('common');
-
     $.each(document.body.className.replace(/-/g, '_').split(/\s+/),function(i,classnm) {
       UTIL.fire(classnm);
     });

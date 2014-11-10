@@ -2,8 +2,13 @@
 <?php while (have_posts()) : the_post(); ?>
   <article <?php post_class(); ?>>
     <header>
-      <h2 class="entry-title"><?php the_title(); ?></h2>
-      <?php get_template_part('templates/entry-meta'); ?>
+        <?php
+          if (validate_gravatar(get_the_author_meta('ID'))) {
+            echo get_avatar(get_the_author_meta('ID'), 60, '', get_the_author_meta('display_name'));
+          }
+        ?>
+        <h2 class="entry-title"><?php the_title(); ?></h2>
+        <?php get_template_part('templates/entry-meta'); ?>
     </header>
     <div class="entry-content">
       <?php the_content(); ?>

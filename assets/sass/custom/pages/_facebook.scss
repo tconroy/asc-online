@@ -1,0 +1,21 @@
+.fb-feed {
+
+  a {
+
+    &:link {
+      border: none;
+      text-decoration: underline solid $asc-orange;
+    }
+    &:hover {
+      border: none;
+      color: $asc-orange;
+    }
+    &:visited {
+
+    }
+    &:active {
+
+    }
+  }
+
+}

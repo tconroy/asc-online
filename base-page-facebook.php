@@ -2,6 +2,7 @@
 # disables error output
 xdebug_disable();
 error_reporting(1);
+
 get_template_part('templates/head'); ?>
 <body <?php body_class(); ?>>
   <!--[if lt IE 8]>
@@ -26,16 +27,16 @@ get_template_part('templates/head'); ?>
       <div class="wrap home container" role="document">
         <div class="content row col-sm-12">
           <div class="col-sm-12 text-center">
-            <h1>What's New <br> <small>ASC Sneak Peek</small></h1>
-              <div class="col-sm-4"><a class="btn btn-holo-dark fullwidth" href="/community">ASC Blog</a></div>
-              <div class="col-sm-4"><a class="btn btn-holo-dark fullwidth" href="/community/twitter">Twitter</a></div>
-              <div class="col-sm-4"><a class="active btn btn-holo-dark fullwidth" href="/community/facebook">Facebook</a></div>
+            <h1 id="whatsnew">What's New <br> <small>ASC Sneak Peek</small></h1>
+              <div class="col-sm-4"><a class="btn btn-holo-dark bigCommBtn" href="/community#whatsnew">ASC Blog</a></div>
+              <div class="col-sm-4"><a class="btn btn-holo-dark bigCommBtn" href="/community/twitter#whatsnew">Twitter</a></div>
+              <div class="col-sm-4"><a class="active btn btn-holo-dark bigCommBtn" href="/community/facebook#whatsnew">Facebook</a></div>
           </div>
-          <div class="col-sm-8">
+          <div class="col-sm-9">
             <?php include roots_template_path(); ?>
           </div><!-- /.main -->
           <?php if (roots_display_sidebar()) : ?>
-            <aside class="sidebar col-md-4 <?php //echo roots_sidebar_class(); ?>" role="complementary">
+            <aside class="sidebar col-md-3 <?php //echo roots_sidebar_class(); ?>" role="complementary">
               <?php include roots_sidebar_path(); ?>
             </aside><!-- /.sidebar -->
           <?php endif; ?>

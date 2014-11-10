@@ -1,4 +1,9 @@
-<?php get_template_part('templates/head'); ?>
+<?php
+# disables error output
+xdebug_disable();
+error_reporting(1);
+
+get_template_part('templates/head'); ?>
 <body <?php body_class(); ?>>
   <!--[if lt IE 8]>
     <div class="alert alert-warning">
@@ -20,19 +25,15 @@
     <div class="home">
       <?php get_template_part('templates/asco', 'page-jumbotron') ?>
       <div class="wrap home container" role="document">
-        <div class="header row col-sm-12">
-          <div class="text-center">
-            <h1 id="whatsnew">What's New</h1>
-            <h4>ASC Sneak Peak</h4>
-              <div class="col-sm-4"><a class="btn btn-holo-dark bigCommBtn active" href="/community#whatsnew">ASC Blog</a></div>
-              <div class="col-sm-4"><a class="btn btn-holo-dark bigCommBtn" href="/community/twitter#whatsnew">Twitter</a></div>
+        <div class="content row col-sm-12">
+          <div class="col-sm-12 text-center">
+            <h1 id="whatsnew">What's New <br> <small>ASC Sneak Peek</small></h1>
+              <div class="col-sm-4"><a class="btn btn-holo-dark bigCommBtn" href="/community#whatsnew">ASC Blog</a></div>
+              <div class="col-sm-4"><a class="active btn btn-holo-dark bigCommBtn" href="/community/twitter#whatsnew">Twitter</a></div>
               <div class="col-sm-4"><a class="btn btn-holo-dark bigCommBtn" href="/community/facebook#whatsnew">Facebook</a></div>
           </div>
-        </div>
-        <div class="content row col-sm-12">
-          <div class="post-content col-sm-9">
-            <?php echo do_shortcode('[ajax_load_more post_type="post" category="blog"]'); ?>
-            <?php //include roots_template_path(); ?>
+          <div class="col-sm-9">
+            <?php include roots_template_path(); ?>
           </div><!-- /.main -->
           <?php if (roots_display_sidebar()) : ?>
             <aside class="sidebar col-md-3 <?php //echo roots_sidebar_class(); ?>" role="complementary">

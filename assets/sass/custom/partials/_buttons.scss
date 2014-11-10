@@ -29,7 +29,7 @@
 
 /* selected link */
 .wrap a:active {
-    color: #0000FF;
+    color: black;
 }
 
 
@@ -45,20 +45,21 @@
     background: $rit-orange;
     border: 2px solid $rit-orange;
   }
-  &.fullwidth {
-    width: 100%;
+  &.bigCommBtn {
+    width: 75%;
+    font-size: 1.5em;
   }
 }
 
 .btn-holo-dark {
   @extend .btn-holo;
   margin-top: 0;
-  border: 2px solid black;
-  color: black;
+  border: 2px solid $rit-darkgray;
+  color: black !important;
   display: inline-block;
 
   &.active {
-    color: white;
-    background: black;
+    color: white !important;
+    background: $rit-darkgray;
   }
 }

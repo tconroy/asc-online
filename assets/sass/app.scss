@@ -21,11 +21,14 @@ $bootstrap-sass-asset-helper: false;
 // plugins
 @import "custom/partials/ajax-feed";
 @import "custom/partials/disqus";
+@import "custom/partials/disqus-widget";
 @import "custom/partials/lazyYT";
 @import "custom/partials/animate";
 // page-specific styling
 @import "custom/pages/home";
+@import "custom/pages/community";
 @import "custom/pages/single"; // single post page
+@import "custom/pages/facebook";
 
 /* ==========================================================================
    Base
