@@ -18,16 +18,19 @@ $bootstrap-sass-asset-helper: false;
 @import "custom/partials/buttons";
 @import "custom/partials/jumbotron";
 @import "custom/partials/sidebar";
+@import "custom/partials/inputs";
 // plugins
 @import "custom/partials/ajax-feed";
 @import "custom/partials/disqus";
 @import "custom/partials/lazyYT";
 @import "custom/partials/animate";
+@import "custom/partials/uniform._base";
 // page-specific styling
 @import "custom/pages/home";
 @import "custom/pages/community";
 @import "custom/pages/single"; // single post page
 @import "custom/pages/facebook";
+@import "custom/pages/contact";
 
 /* ==========================================================================
    Base

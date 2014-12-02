@@ -9,8 +9,12 @@ aside.sidebar {
     }
 
     img {
-      padding-right: 25%;
+      // padding-right: 25%;
+      padding: 0 15px 0 15px;
       @extend .img-responsive;
+      &:first-child {
+        padding-left:0;
+      }
     }
   }
 
@@ -35,5 +39,6 @@ aside.sidebar ul {
     font-weight: light;
     font-style: italic;
     color: $rit-darkgray;
+    font-size:.75em;
   }
 }

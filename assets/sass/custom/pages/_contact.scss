@@ -1,0 +1,72 @@
+.contact-page {
+    ::-webkit-input-placeholder {
+        text-transform: uppercase;
+    }
+    :-moz-placeholder {
+        /* Firefox 18- */
+        text-transform: uppercase;
+    }
+    ::-moz-placeholder {
+        /* Firefox 19+ */
+        text-transform: uppercase;
+    }
+    :-ms-input-placeholder {
+        text-transform: uppercase;
+    }
+    .location-dl {
+        text-align: left;
+        padding: 10px;
+    }
+    .location-dl dt {
+        text-align: left;
+        max-width: 25%;
+    }
+    .location-dl dd {
+        max-width: 75%;
+        margin-left: 25%;
+    }
+    input[type="submit"] {
+        float: right;
+    }
+    input[type='hidden'] {
+        display: none;
+    }
+    input[type='checkbox'] {
+        vertical-align: initial;
+    }
+
+    .checkbox-grid {
+      li {
+        display: block;
+        float: left;
+        width: 11%;
+        text-align:center;
+      }
+      li label {
+        display: initial;
+      }
+      .gh {
+        text-align: left;
+      }
+    }
+}
+
+// GMAPS
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+    #full-map-link {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    iframe {
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+        position: absolute;
+    }
+}

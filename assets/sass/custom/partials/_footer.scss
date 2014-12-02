@@ -1,11 +1,12 @@
-footer.footer{
+footer.footer {
   color: white;
   background: $rit-darkgray;
+  margin-top: 10em;
 
-  .learnmore-footer{
-    padding: 2em 4em 4em 4em;
+  .learnmore-footer {
+    padding: 2em 4em 4em;
     text-align: center;
-    h2{
+    h2 {
       margin-bottom: 4em;
       text-transform: uppercase;
     }
@@ -13,17 +14,11 @@ footer.footer{
     div {
       a {
         font-weight: 300;
-        color: white;
-        padding: 5em 1em 1em 1em;
-        &.browser {
-          background: url('../img/layout/footer/browser.png')  50% 0 no-repeat;
-        }
-        &.schedule {
-          background: url('../img/layout/footer/schedule.png') 25% 0 no-repeat;
-        }
-        &.mail {
-          background: url('../img/layout/footer/email2.png')    50% 0 no-repeat;
-        }
+        color: #fff;
+        padding: 5em 1em 1em;
+        &.browser  { background: url('../img/layout/footer/browser.png')   50% 0 no-repeat; }
+        &.schedule { background: url('../img/layout/footer/schedule.png')  25% 0 no-repeat; }
+        &.mail     { background: url('../img/layout/footer/email2.png')    50% 0 no-repeat; }
       }
     }
   } // end learnmore
@@ -31,17 +26,17 @@ footer.footer{
   .stayconnected-footer{
     background-color: $rit-orange;
     height: auto;
-    color: white;
+    color: #fff;
     text-align: center;
-    padding: 4em 0 4em 0;
+    padding: 4em 0;
 
-    h2{ margin-top: 0; margin-bottom: 1.5em; }
+    h2 { margin-top: 0; margin-bottom: 1.5em; }
     h2 a { text-decoration: underline; }
     a { color: inherit; }
 
     ul.social-circle {
       margin-bottom: 2em;
-      a{
+      a {
         padding: 50px 50px 0 17px;
       }
       .fb { background: url('../img/content/icons/circle/facebook@2x.png') no-repeat; }
@@ -50,6 +45,7 @@ footer.footer{
       .yt { background: url('../img/content/icons/circle/youtube@2x.png') no-repeat; }
       li {
         margin: 50px 15px 0 0;
+
         &:last-child {
           margin-right: 0;
         }
@@ -58,8 +54,8 @@ footer.footer{
 
   } // end stayconnected
 
-  .rit-footer{
-    background-color: black;
+  .rit-footer {
+    background-color: #000;
     // height: 100px;
     margin-top: 0;
 
@@ -73,13 +69,15 @@ footer.footer{
 
 
   @media (max-width: $screen-sm) {
-    .stayconnected-footer{
-      h2{
+    .stayconnected-footer {
+      h2 {
         font-size: 20px;
       }
+
       div {
         display: block;
       }
+
     } // end stayconnected
 
     .learnmore-footer {

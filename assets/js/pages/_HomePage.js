@@ -20,7 +20,7 @@ var Home = {
 
     bindSocialIconAnim: function() {
       // bounce social icons at top of page on hover.
-      $('.social-circle li, .social li').hover(function(){
+      $('.social-circle li, .social li').mouseenter(function(){
         $(this).addClass('animated tada');
         $(this).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
           $(this).removeClass('animated tada');

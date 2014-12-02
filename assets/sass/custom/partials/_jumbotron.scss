@@ -59,6 +59,7 @@
     $link : $social-icon + 'thelink' + $ext;
 
     a { display: inline-block; }
+    a:hover { outline: none; border: none; }
     li { max-width: 48px; width: 48px; height: 48px; margin-right: 20px; }
     .fb {   background: url($fb) 0 0 no-repeat; }
     .tw {   background:url($tw) 0 0 no-repeat; }
@@ -73,7 +74,7 @@
 @media (max-width: $screen-sm - 1px){
 
   .jumbotron-caption {
-    ul.social{
+    ul.social {
       float: left;
     }
   }

@@ -52,6 +52,11 @@ var Roots = {
     init: function() {
       Facebook.init();
     }
+  },
+  contact: {
+    init: function() {
+      Contact.init();
+    }
   }
 };
 
