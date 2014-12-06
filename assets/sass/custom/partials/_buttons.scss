@@ -63,3 +63,19 @@
     background: $rit-darkgray;
   }
 }
+
+.btn-holo-orange {
+  @extend .btn-holo;
+  margin-top: 0;
+  border: none;
+  color: white;
+  display: inline-block;
+  background-color: $rit-orange !important;
+
+  &:hover {
+    border: none;
+  }
+  &.submit-btn {
+    width: 33%;
+  }
+}

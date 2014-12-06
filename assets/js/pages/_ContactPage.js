@@ -5,15 +5,14 @@ var Contact = {
    */
   init: function() {
     console.log("Contact::init()");
-    $contactForm = $('form.contact-form');
-
-    this.addInputStyling($contactForm);
+    $contactForm = $('form#contact-form');
+    $appointmentForm = $('form#appointment-form');
+    // setup captcha
     this.addFormCaptcha($contactForm);
+    this.addFormCaptcha($appointmentForm);
+    // setup submit handling
     this.bindAjaxSubmit($contactForm);
-  },
-
-  addInputStyling: function ($form) {
-    $form.find('input[type="text"], textarea, checkbox').uniform();
+    this.bindAjaxSubmit($appointmentForm);
   },
 
   /**
@@ -23,12 +22,9 @@ var Contact = {
    */
   addFormCaptcha: function($form) {
     console.log('Contact::addFormCaptcha()');
-    $form.find('#submitContact')
-          .before('<label>Please check the box: <input type="checkbox" name="captcha" /></label>');
-
-    $checkbox = $form.find('input[name="captcha"]');
     $submit = $form.find('input[type="submit"]');
-
+    $submit.after('<label>Please check the box: <input type="checkbox" name="captcha" /></label>');
+    $checkbox = $form.find('input[name="captcha"]');
     this.bindCaptchaCheckbox($checkbox, $submit);
   },
 

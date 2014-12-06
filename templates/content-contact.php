@@ -1,28 +1,37 @@
 <!-- sidebar map -->
-<div class="col-md-4 col-md-push-8">
-  <div class="google-maps">
-    <iframe style="width: 600px; height: 450px;" src="http://maps.rit.edu/embed.php?zoom=20&lat=43.084790235380794&lng=-77.67410930290224&open=p-24&start=0&rows=10&" title="RIT Campus Map" scrolling="no" frameborder="0"></iframe>
-  </div>
-  <dl class="dl-horizontal location-dl" style='text-align:left;'>
+<div class="col-md-5 col-md-push-7">
+  <a id="gmap-link" href="http://maps.rit.edu/embed.php?zoom=21&lat=43.084790235380794&lng=-77.67410930290224&open=p-24&start=0&rows=10">
+    <img class="img-responsive" src="<?=get_template_directory_uri();?>/assets/img/content/contact/static-gmap.png">
+  </a>
+<!--   <dl class="dl-horizontal location-dl" style='text-align:left;'>
     <dt><strong>Location</strong></dt>
     <dd>Monroe Hall (BLDG. 15) <br> (above Artesanos)</dd>
     <dt><strong>Phone</strong></dt>
     <dd><a href="tel:585-475-6682">585-475-6682</a></dd>
-  </dl>
+  </dl> -->
+
+  <p>
+    <ul class="unstyled-list text-center">
+      <li>Located in Monroe Hall (BLDG. 15)</li>
+      <li>above Artesano's Bakery</li>
+      <li>Phone: <a href="tel:585-475-6682">585-475-6682</a></li>
+    </ul>
+  </p>
+
 </div>
 <!-- message form -->
-<div class="col-md-8 col-md-pull-4">
-<form role="form" class='contact-form' method='post' action='<?=bloginfo('template_directory');?>/mailer.php'>
-<input type="hidden" name="formName" value="contactForm">
+<div class="col-md-7 col-md-pull-5">
+<form role="form" id="contact-form" class='col-md-11' method='post' action='<?=bloginfo('template_directory');?>/mailer.php'>
+<input type="hidden" name="formName" value="contact">
   <div class="form-group">
-    <input required type="text" class="form-control" id="" placeholder="your name">
+    <input required type="text" class="form-control" name="name" placeholder="your name">
   </div>
   <div class="form-group">
-    <input required type="email" class="form-control" id="" placeholder="email address">
+    <input required type="email" class="form-control" name="email" placeholder="email address">
   </div>
-  <div class="form-group select-wrapper">
-    <select name="" id="" class="form-control" required>
-      <option>SUBJECT</option>
+  <div class="form-group">
+    <select name="subject" class="form-control" required>
+      <option value="null">SUBJECT</option>
       <option value="Option 1">Option 1</option>
       <option value="Option 2">Option 2</option>
       <option value="Option 3">Option 3</option>
@@ -30,18 +39,20 @@
     </select>
   </div>
   <div class="form-group">
-    <textarea required name="" id="" class="form-control" placeholder="your message" cols="30" rows="10"></textarea>
+    <textarea required name="message" class="form-control" placeholder="your message" cols="30" rows="10"></textarea>
   </div>
   <div class="form-group">
-    <input disabled="disabled" type="submit" class="btn btn-default" id="submitContact" value="Submit">
+    <input disabled="disabled" type="submit" class="btn btn-holo-orange submit-btn pull-right" value="Submit">
   </div>
 </form>
 </div>
 
 <div class="col-xs-12">
-  <h2>Academic Coaching Appointment Request Form</h2>
-  <legend>* denotes required field</legend>
-  <form role="form" class="appointment-form" method="post" action="<?=bloginfo('template_directory');?>/mailer.php">
+  <div class="header text-center" style="margin-top: 8em; margin-bottom: 4em;">
+    <h1>ACADEMIC COACHING APPOINTMENT REQUEST FORM</h1>
+  </div>
+  <form role="form" id="appointment-form" method="post" action="<?=bloginfo('template_directory');?>/mailer.php">
+    <input type="hidden" name="formName" value="appointmentRequest">
     <div class="form-group col-md-3">
       <label for="appt-fn">First Name</label>
       <input type="text" class="form-control" placeholder="" name="" id="appt-fn">
@@ -52,7 +63,7 @@
     </div>
     <div class="form-group col-md-6">
       <label for="appt-uid">Student UID (only numbers, no dashes)</label>
-      <input type="text" class="form-control" placeholder="" name="" id="appt-uid">
+      <input type="number" class="form-control" placeholder="" name="" id="appt-uid" required="required">
     </div>
     <div class="form-group col-md-3">
       <label for="appt-email">RIT Email</label>
@@ -87,7 +98,7 @@
       <label for="appt-reason">What is your primary reason for making this appointment?</label>
       <textarea name="" id="appt-reason" class="form-control" cols="30" rows="10"></textarea>
     </div>
-    <div class="col-md-12">
+    <div class="form-group col-md-12">
       <label for="">When are you typically available on the following days?</label>
       <ul class="checkbox-grid">
         <li class="gh"><label>Day</label></li>
@@ -99,7 +110,6 @@
         <li><label>2pm</label></li>
         <li><label>3pm</label></li>
         <li><label>4pm</label></li>
-        <div style="background-color: lightgray">
         <li class="gh"><label>Tuesday</label></li>
         <li><input type="checkbox" name="available['Tuesday']" value="9am"></li>
         <li><input type="checkbox" name="available['Tuesday']" value="10am"></li>
@@ -109,7 +119,6 @@
         <li><input type="checkbox" name="available['Tuesday']" value="2pm"></li>
         <li><input type="checkbox" name="available['Tuesday']" value="3pm"></li>
         <li><input type="checkbox" name="available['Tuesday']" value="4pm"></li>
-        </div>
         <li class="gh"><label>Wednesday</label></li>
         <li><input type="checkbox" name="available['Wednesday']" value="9am"></li>
         <li><input type="checkbox" name="available['Wednesday']" value="10am"></li>
@@ -138,6 +147,11 @@
         <li><input type="checkbox" name="available['Friday']" value="3pm"></li>
         <li><input type="checkbox" name="available['Friday']" value="4pm"></li>
       </ul>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-12">
+        <input type="submit" value="Submit" disabled="disabled" class="btn btn-holo-orange pull-right">
+      </div>
     </div>
   </form>
 </div>
