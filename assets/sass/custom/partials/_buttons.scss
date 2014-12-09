@@ -1,9 +1,9 @@
-// link styles
+/***************
+ * LINK STYLES
+ ****************/
+
 /* unvisited link */
 .wrap a:link {
-    //color: #FF0000;
-  // color: inherit;
-  // border-bottom: 2px solid $asc-orange;
   font-weight: bold;
   text-decoration: none;
   color: inherit;
@@ -11,18 +11,12 @@
 
 /* visited link */
 .wrap a:visited {
-    //color: #00FF00;
-    // color: inherit;
-    // border-bottom: 2px solid $rit-lightgray;
     font-weight: normal;
     color: darken($rit-lightgray, 20%);
 }
 
 /* mouse over link */
 .wrap a:hover {
-    // color: #FF00FF;
-  // background-color: $asc-orange;
-  // border: none;
   text-decoration: none;
   border-bottom: 2px solid $asc-orange;
 }
@@ -32,7 +26,9 @@
     color: black;
 }
 
-
+/***************
+ * BUTTON STYLES
+ ****************/
 .btn-holo {
   margin-top: 10%;
   width: 125px;

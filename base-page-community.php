@@ -24,7 +24,7 @@
           <div class="text-center">
             <h1 id="whatsnew">What's New</h1>
             <h4>ASC Sneak Peak</h4>
-              <div class="col-sm-4"><a class="btn btn-holo-dark bigCommBtn active" href="/community#whatsnew">ASC Blog</a></div>
+              <div class="col-sm-4"><a class="btn btn-holo-dark bigCommBtn active" href="/community/blog#whatsnew">ASC Blog</a></div>
               <div class="col-sm-4"><a class="btn btn-holo-dark bigCommBtn" href="/community/twitter#whatsnew">Twitter</a></div>
               <div class="col-sm-4"><a class="btn btn-holo-dark bigCommBtn" href="/community/facebook#whatsnew">Facebook</a></div>
           </div>
