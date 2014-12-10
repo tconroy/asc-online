@@ -9,3 +9,8 @@
     display: inline-block;
     vertical-align: middle;
 }
+
+// remove styling from disqus links..
+a.disqus-comment-count:visited {
+  color: inherit;
+}

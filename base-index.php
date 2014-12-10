@@ -1,10 +1,6 @@
-<?php
-// # disables error output
-// xdebug_disable();
-// error_reporting(1);
-
-get_template_part('templates/head'); ?>
+<?php get_template_part('templates/head'); ?>
 <body <?php body_class(); ?>>
+
   <!--[if lt IE 8]>
     <div class="alert alert-warning">
       <?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'roots'); ?>
@@ -21,21 +17,19 @@ get_template_part('templates/head'); ?>
       get_template_part('templates/header');
     }
   ?>
-  <main class="main" role="main">
-    <div class="home">
-      <?php get_template_part('templates/asco', 'page-jumbotron') ?>
-      <div class="wrap home container" role="document">
-        <?php
-          $cm_section = 'facebook';
-          include(locate_template('templates/asco-community-nav.php'));
-        ?>
-          <div class="col-sm-12">
-            <?php include roots_template_path(); ?>
-          </div><!-- /.main -->
-        </div><!-- /.content -->
-      </div><!-- /.wrap -->
-    </div>
-  </main>
+
+  <div class="wrap container" role="document">
+    <div class="content row">
+      <main class="main <?php echo roots_main_class(); ?>" role="main">
+        <?php include roots_template_path(); ?>
+      </main><!-- /.main -->
+      <?php if (roots_display_sidebar()) : ?>
+        <aside class="sidebar <?php echo roots_sidebar_class(); ?>" role="complementary">
+          <?php include roots_sidebar_path(); ?>
+        </aside><!-- /.sidebar -->
+      <?php endif; ?>
+    </div><!-- /.content -->
+  </div><!-- /.wrap -->
 
   <?php get_template_part('templates/asco-footer'); ?>
 

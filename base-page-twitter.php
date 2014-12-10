@@ -25,13 +25,11 @@ get_template_part('templates/head'); ?>
     <div class="home">
       <?php get_template_part('templates/asco', 'page-jumbotron') ?>
       <div class="wrap home container" role="document">
+        <?php
+          $cm_section = 'twitter';
+          include(locate_template('templates/asco-community-nav.php'));
+        ?>
         <div class="content row col-sm-12">
-          <div class="col-sm-12 text-center">
-            <h1 id="whatsnew">What's New <br> <small>ASC Sneak Peek</small></h1>
-              <div class="col-sm-4"><a class="btn btn-holo-dark bigCommBtn" href="/community/blog#whatsnew">ASC Blog</a></div>
-              <div class="col-sm-4"><a class="active btn btn-holo-dark bigCommBtn" href="/community/twitter#whatsnew">Twitter</a></div>
-              <div class="col-sm-4"><a class="btn btn-holo-dark bigCommBtn" href="/community/facebook#whatsnew">Facebook</a></div>
-          </div>
           <div class="col-sm-12">
             <?php include roots_template_path(); ?>
           </div><!-- /.main -->

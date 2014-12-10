@@ -20,18 +20,14 @@
     <div class="home">
       <?php get_template_part('templates/asco', 'page-jumbotron') ?>
       <div class="wrap home container" role="document">
-        <div class="header row col-sm-12">
-          <div class="text-center">
-            <h1 id="whatsnew">What's New</h1>
-            <h4>ASC Sneak Peak</h4>
-              <div class="col-sm-4"><a class="btn btn-holo-dark bigCommBtn active" href="/community/blog#whatsnew">ASC Blog</a></div>
-              <div class="col-sm-4"><a class="btn btn-holo-dark bigCommBtn" href="/community/twitter#whatsnew">Twitter</a></div>
-              <div class="col-sm-4"><a class="btn btn-holo-dark bigCommBtn" href="/community/facebook#whatsnew">Facebook</a></div>
-          </div>
-        </div>
+        <?php
+          $cm_section = 'community';
+          include(locate_template('templates/asco-community-nav.php'));
+        ?>
         <div class="content row col-sm-12">
           <div class="post-content col-sm-9">
-            <?php echo do_shortcode('[ajax_load_more post_type="post" category="blog"]'); ?>
+            <h3>Recent Blog Posts</h3>
+            <?php echo do_shortcode('[ajax_load_more post_type="post" max_pages="none"]'); ?>
             <?php //include roots_template_path(); ?>
           </div><!-- /.main -->
           <?php if (roots_display_sidebar()) : ?>

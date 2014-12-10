@@ -10,6 +10,7 @@
       <div class="rit-search">
         <input
           value="<?php if (is_search()) { echo get_search_query(); } ?>"
+          class="search-field form-control"
           type="search"
           placeholder="<?= _e('Search ', 'roots').' '.bloginfo('name') ?>"
           name="s" />

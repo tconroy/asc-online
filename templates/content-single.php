@@ -17,7 +17,7 @@
         <div class="media">
           <a class="media-left" href="<?= get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?= get_avatar(get_the_author_meta('ID'), 90, '', get_the_author_meta('display_name')); ?></a>
           <div class="media-body">
-            <h4 class="media-heading"><?= the_title(); ?></h4>
+            <h3 class="media-heading"><?= the_title(); ?></h3>
             <?= get_template_part('templates/entry-meta'); ?>
             <?= the_content(); ?>
           </div>
