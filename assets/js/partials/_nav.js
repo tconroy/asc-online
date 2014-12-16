@@ -11,8 +11,8 @@ var Nav = {
 
   bindPlugins: function() {
     $('.navbar-fixed-top').autoHidingNavbar({
-      'showOnBottom': false,
-      'animationDuration': '100'
+      'showOnBottom': true,
+      'animationDuration': '50'
     });
   },
 

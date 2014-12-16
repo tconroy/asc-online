@@ -12,7 +12,7 @@
             </div>
             <div class="macbook-wrapper">
                 <div class="inner-macbook">
-                    <div class="vid-wrap">
+                    <div class="vid-wrap" style="visibility: hidden">
                         <div class="js-lazyYT fluid-width-video-wrapper" data-youtube-id="DAYDZBD3pT8" data-parameters="color=white&modestbranding=1&rel=0" data-width="100%" data-height="100%">
                         </div>
                     </div>
@@ -27,7 +27,7 @@
                 <small>Lessons worth Learning</small>
             </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-4 leader" style="visibility: hidden;">
             <div class="panel panel-default blue">
                 <a href="lessons/study-skills"><img class="img-responsive" src="<?=get_template_directory_uri();?>/assets/img/content/lessons/study_skills_icon.png" alt=""></a>
                 <div class="panel-body">
@@ -36,7 +36,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-4" style="visibility: hidden;">
             <div class="panel panel-default green">
                 <a href="lessons/time-management"><img class="img-responsive" src="<?=get_template_directory_uri();?>/assets/img/content/lessons/time_management_icon.png" alt=""></a>
                 <div class="panel-body">
@@ -46,7 +46,7 @@
             </div>
         </div>
         <div class="clearfix visible-sm"></div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-4" style="visibility: hidden;">
             <div class="panel panel-default orange">
                 <a href="lessons/tutoring"><img class="img-responsive" src="<?=get_template_directory_uri();?>/assets/img/content/lessons/tutoring_icon.png" alt=""></a>
                 <div class="panel-body">
@@ -56,7 +56,7 @@
             </div>
         </div>
         <div class="clearfix visible-md visible-lg lcf"></div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-4" style="visibility: hidden;">
             <div class="panel panel-default yellow">
                 <a href="lessons/math"><img class="img-responsive" src="<?=get_template_directory_uri(); ?>/assets/img/content/lessons/math_icon.png" alt=""></a>
                 <div class="panel-body">
@@ -66,7 +66,7 @@
             </div>
         </div>
         <div class="clearfix visible-sm"></div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-4" style="visibility: hidden;">
             <div class="panel panel-default red">
                 <a href="lessons/reading"><img class="img-responsive" src="<?=get_template_directory_uri();?>/assets/img/content/lessons/reading_icon.png" alt=""></a>
                 <div class="panel-body">
@@ -75,7 +75,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-4" style="visibility: hidden;">
             <div class="panel panel-default gray">
                 <a href="lessons/online-learning"><img class="img-responsive" src="<?=get_template_directory_uri();?>/assets/img/content/lessons/online_learning_icon.png" alt=""></a>
                 <div class="panel-body">
