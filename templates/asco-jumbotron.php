@@ -1,18 +1,29 @@
 <div class="home jumbotron">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="content col-xs-6">
-            <p>
-              <span class="hidden-xs">ASC Online is here to help you!</span>
-              Learn how to learn,
-              anytime, anywhere.
-              <a href="#" class="btn btn-holo">Learn How</a>
-            </p>
-          </div>
-        </div>
+  <div class="inner-carousel-wrapper">
+    <div class="inner-carousel">
+      <div class="slide">
+        <img class="img-responsive" src="<?=get_template_directory_uri();?>/assets/img/content/lessons/math_icon@2x.png" alt="">
+      </div>
+      <div class="slide">
+        <img class="img-responsive" src="<?=get_template_directory_uri();?>/assets/img/content/lessons/online_learning_icon@2x.png" alt="">
+      </div>
+      <div class="slide">
+        <img class="img-responsive" src="<?=get_template_directory_uri();?>/assets/img/content/lessons/reading_icon@2x.png" alt="">
+      </div>
+      <div class="slide">
+        <img class="img-responsive"src="<?=get_template_directory_uri();?>/assets/img/content/lessons/study_skills_icon@2x.png" alt="">
+      </div>
+      <div class="slide">
+        <img class="img-responsive" src="<?=get_template_directory_uri();?>/assets/img/content/lessons/time_management_icon@2x.png" alt="">
+      </div>
+      <div class="slide">
+        <img class="img-responsive" src="<?=get_template_directory_uri();?>/assets/img/content/lessons/tutoring_icon@2x.png" alt="">
       </div>
     </div>
+
+
+    <img style="width: 100%; max-height: 800px;" src="<?=get_template_directory_uri();?>/assets/img/layout/cover/ASC_Homepage_Banner.png" alt="">
+  </div>
   </div>
 
   <div class="home jumbotron-caption">

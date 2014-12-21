@@ -1,6 +1,6 @@
 <div style="position: relative;">
     <div class="community jumbotron">
-        <div class="container">
+        <!-- <div class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="content col-xs-6">
@@ -13,7 +13,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
 <div class="community jumbotron-caption">

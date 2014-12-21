@@ -12,20 +12,40 @@
 
 .jumbotron {
 
-  &.home {
-    background: url('../img/layout/cover/top.jpg') no-repeat center top;
-    background-size: cover;
-  }
-  &.community {
-    // background: url('../img/layout/cover/community.jpg') no-repeat center top;
-    background: url('../img/layout/cover/ASC_Community_Banner.png') no-repeat center top;
-    background-size: cover;
-    background-position: 0% 25%;
-  }
-
   height: auto;
   padding: 0;
   margin-bottom: 0;
+
+  &.home {
+    // height: 640px;
+    // background: url('../img/layout/cover/ASC_Homepage_Banner_Scaled.png') no-repeat center top;
+    // background: url('../img/layout/cover/ASC_Homepage_Banner.png') no-repeat center top;
+    // background-size: cover;
+  }
+  &.community {
+    // background: url('../img/layout/cover/ASC_Community_Banner.png') no-repeat center top;
+    // height: 640px;
+    // background-size: cover;
+  }
+
+  .inner-carousel {
+    position: absolute;
+    float: right;
+    margin-left: 54.3%;
+    margin-top: 6.5%;
+    width: 45.7%;
+    outline: 1px solid red;
+    height: 76%;
+  }
+
+  .inner-carousel .slide {
+    background: red;
+  }
+  .inner-carousel .slide img {
+    margin: 0 auto;
+    padding: 12%;
+  }
+
   .container { padding: 80px 30px 80px 30px; }
   .content {
     color: white;
