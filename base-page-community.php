@@ -27,7 +27,7 @@
         <div class="content row col-sm-12">
           <div class="post-content col-sm-9">
             <h3>Recent Blog Posts</h3>
-            <?php echo do_shortcode('[ajax_load_more post_type="post" max_pages="none"]'); ?>
+            <?php echo do_shortcode('[ajax_load_more post_type="post" max_pages="1"]'); ?>
             <?php //include roots_template_path(); ?>
           </div><!-- /.main -->
           <?php if (roots_display_sidebar()) : ?>

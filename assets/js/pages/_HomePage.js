@@ -19,8 +19,8 @@ var Home = {
     bindJumbotronCarousel: function() {
       $('.inner-carousel').slick({
         accessibility: false,
-        autoplay: false,
-        autoplaySpeed: 300,
+        autoplay: true,
+        autoplaySpeed: 2500,
         arrows: false,
         draggable: false,
         slide: '.slide'

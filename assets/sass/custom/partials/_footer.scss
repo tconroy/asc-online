@@ -14,12 +14,16 @@ footer.footer {
 
     div {
       a {
-        font-weight: 300;
+        font-weight: 400;
+        font-size: 1.25em;
         color: #fff;
         padding: 5em 1em 1em;
         &.browser  { background: url('../img/layout/footer/browser.png')   50% 0 no-repeat; }
-        &.schedule { background: url('../img/layout/footer/schedule.png')  25% 0 no-repeat; }
+        &.schedule { background: url('../img/layout/footer/schedule.png')  100% 0 no-repeat; }
         &.mail     { background: url('../img/layout/footer/email2.png')    50% 0 no-repeat; }
+        &:hover {
+          color: $asco-orange;
+        }
       }
     }
   } // end learnmore

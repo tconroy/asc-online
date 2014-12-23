@@ -26,7 +26,7 @@
         ?>
         <div class="content row col-sm-12">
           <div class="post-content col-sm-9">
-            <?php echo do_shortcode('[ajax_load_more post_type="post" category="blog"]'); ?>
+            <?php echo do_shortcode('[ajax_load_more post_type="post" max_pages="none"]'); ?>
             <?php //include roots_template_path(); ?>
           </div><!-- /.main -->
           <?php if (roots_display_sidebar()) : ?>

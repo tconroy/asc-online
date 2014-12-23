@@ -1,19 +1,19 @@
+<?php
+    $section = get_the_title();
+    function getHeaderImgUri($pageName) {
+        $uri = get_template_directory_uri() . '/assets/img/layout/cover/';
+        if( $pageName == 'Community' ) {
+            $uri .= "ASC_Community_Banner.png";
+        } else {
+            $uri = 'test.png';
+        }
+        return $uri;
+    }
+ ?>
+
 <div style="position: relative;">
     <div class="community jumbotron">
-        <!-- <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="content col-xs-6">
-                        <p>
-                        <span class="hidden-xs">ASC Online is here to help you!</span>
-                        Learn how to learn,
-                        anytime, anywhere.
-                        <a href="#" class="btn btn-holo">Learn How</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div> -->
+        <img style="width: 100%; max-height: 800px; position:relative;" src="<?= getHeaderImgUri(get_the_title()); ?>" alt="" ?>
     </div>
 </div>
 <div class="community jumbotron-caption">
@@ -31,7 +31,7 @@
                     <a href=""><li class="fb"></li></a>
                     <a href=""><li class="tw"></li></a>
                     <a href=""><li class="yt"></li></a>
-                    <a href=""><li class="link"></li></a>
+                    <a href=""><li class="ig"></li></a>
                 </ul>
             </div>
         </div>
