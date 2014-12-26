@@ -1,16 +1,23 @@
 <?php
-    $section = get_the_title();
     function getHeaderImgUri($pageName) {
+        $pageName = strtolower($pageName);
         $uri = get_template_directory_uri() . '/assets/img/layout/cover/';
-        if( $pageName == 'Community' ) {
-            $uri .= "ASC_Community_Banner.png";
-        } else {
-            $uri = 'test.png';
+        switch($pageName) {
+            case "lessons":
+                $uri .= "adasdasdas.png";
+                break;
+
+            case "series":
+                $uri .= "ASC_RealDeal_Banner.png";
+                break;
+
+            default:
+                $uri .= "ASC_Community_Banner.png";
+                break;
         }
         return $uri;
     }
  ?>
-
 <div style="position: relative;">
     <div class="community jumbotron">
         <img style="width: 100%; max-height: 800px; position:relative;" src="<?= getHeaderImgUri(get_the_title()); ?>" alt="" ?>

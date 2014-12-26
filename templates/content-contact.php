@@ -3,13 +3,6 @@
   <a id="gmap-link" href="http://maps.rit.edu/embed.php?zoom=21&lat=43.084790235380794&lng=-77.67410930290224&open=p-24&start=0&rows=10">
     <img class="img-responsive" src="<?=get_template_directory_uri();?>/assets/img/content/contact/static-gmap.png">
   </a>
-<!--   <dl class="dl-horizontal location-dl" style='text-align:left;'>
-    <dt><strong>Location</strong></dt>
-    <dd>Monroe Hall (BLDG. 15) <br> (above Artesanos)</dd>
-    <dt><strong>Phone</strong></dt>
-    <dd><a href="tel:585-475-6682">585-475-6682</a></dd>
-  </dl> -->
-
   <p>
     <ul class="unstyled-list text-center">
       <li>Located in Monroe Hall (BLDG. 15)</li>
@@ -31,7 +24,7 @@
   </div>
   <div class="form-group">
     <select name="subject" class="form-control" required>
-      <option value="null">SUBJECT</option>
+      <option value="null">SELECT SUBJECT</option>
       <option value="Option 1">Option 1</option>
       <option value="Option 2">Option 2</option>
       <option value="Option 3">Option 3</option>
@@ -41,6 +34,7 @@
   <div class="form-group">
     <textarea required name="message" class="form-control" placeholder="your message" cols="30" rows="10"></textarea>
   </div>
+  <hr>
   <div class="form-group">
     <input disabled="disabled" type="submit" class="btn btn-holo-orange submit-btn pull-right" value="Submit">
   </div>
@@ -83,6 +77,7 @@
     <div class="form-group col-md-6">
       <label for="appt-college">College</label>
       <select class="form-control" id="appt-college">
+        <option value="">SELECT COLLEGE</option>
         <option>College of Applied Science and Technology</option>
         <option>Saunders College of Business</option>
         <option>B. Thomas Golisano College of Computing and Information Sciences</option>
@@ -150,6 +145,7 @@
     </div>
     <div class="form-group">
       <div class="col-sm-12">
+        <hr>
         <input type="submit" value="Submit" disabled="disabled" class="btn btn-holo-orange pull-right">
       </div>
     </div>
