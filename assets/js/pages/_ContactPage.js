@@ -44,7 +44,7 @@ var Contact = {
      * @return {[type]}       [description]
      */
     bindAjaxSubmit: function($form) {
-        console.clear();
+        var that = this;
         $form.submit(function(e) {
             e.preventDefault();
             var formData = $form.serialize();
@@ -53,13 +53,37 @@ var Contact = {
                 type: 'POST',
                 data: formData
             }).done(function(res) {
-                console.dir(res);
-                alert('success!'); // update status text
-                $form[0].reset(); // reset the form
-                $form.find('input[type="submit"]').attr('disabled', 'disabled');
+                that.onFormAjaxSuccess($form, res);
             }).fail(function(data) {
-                alert('error');
+                that.onFormAjaxFail( $form, data );
             });
         });
-    }
+    },
+    /**
+     * [onFormAjaxSuccess description]
+     * @param  {[type]} $form    [description]
+     * @param  {[type]} response [description]
+     * @return {[type]}          [description]
+     */
+    onFormAjaxSuccess: function($form, response) {
+        var alert = $('#successAlert').clone().removeClass('hidden');
+        alert.find('.msgbody').text(response);
+        // alert.prependTo($form.parent());
+        alert.prependTo( $form );
+        $form[0].reset();
+        $form.find('input[type="submit"]').attr('disabled', 'disabled');
+    },
+    /**
+     * [onFormAjaxFail description]
+     * @param  {[type]} $form [description]
+     * @param  {[type]} data  [description]
+     * @return {[type]}       [description]
+     */
+    onFormAjaxFail: function($form, data) {
+        var alert = $('#errorAlert').clone().removeClass('hidden');
+        alert.find('.msgbody').text(data.responseText);
+        alert.prependTo($form.parent());
+        $form.find('input[name="captcha"]').prop('checked', false);
+        $form.find('input[type="submit"]').attr('disabled', 'disabled');
+    },
 }; // end Contact page

@@ -1,7 +1,7 @@
 <!-- sidebar map -->
 <div class="col-md-5 col-md-push-7">
   <a id="gmap-link" href="http://maps.rit.edu/embed.php?zoom=21&lat=43.084790235380794&lng=-77.67410930290224&open=p-24&start=0&rows=10">
-    <img class="img-responsive" src="<?=get_template_directory_uri();?>/assets/img/content/contact/static-gmap.png">
+    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/content/contact/static-gmap.png">
   </a>
   <p>
     <ul class="unstyled-list text-center">
@@ -14,7 +14,7 @@
 </div>
 <!-- message form -->
 <div class="col-md-7 col-md-pull-5">
-<form role="form" id="contact-form" class='col-md-11' method='post' action='<?=bloginfo('template_directory');?>/mailer.php'>
+<form role="form" id="contact-form" class='col-md-11' method='post' action='<?php echo bloginfo('template_directory'); ?>/mailer.php'>
 <input type="hidden" name="formName" value="contact">
   <div class="form-group">
     <input required type="text" class="form-control" name="name" placeholder="your name">
@@ -25,10 +25,11 @@
   <div class="form-group">
     <select name="subject" class="form-control" required>
       <option value="null">SELECT SUBJECT</option>
-      <option value="Option 1">Option 1</option>
-      <option value="Option 2">Option 2</option>
-      <option value="Option 3">Option 3</option>
-      <option value="Option 4">Option 4</option>
+      <option value="Question">Question</option>
+      <option value="Comment">Comment</option>
+      <option value="Suggestion">Suggestion</option>
+      <option value="Help">Help</option>
+      <option value="General">General</option>
     </select>
   </div>
   <div class="form-group">
@@ -45,53 +46,53 @@
   <div class="header text-center" style="margin-top: 8em; margin-bottom: 4em;">
     <h1>ACADEMIC COACHING APPOINTMENT REQUEST FORM</h1>
   </div>
-  <form role="form" id="appointment-form" method="post" action="<?=bloginfo('template_directory');?>/mailer.php">
+  <form role="form" id="appointment-form" method="post" action="<?php echo bloginfo('template_directory'); ?>/mailer.php">
     <input type="hidden" name="formName" value="appointmentRequest">
     <div class="form-group col-md-3">
       <label for="appt-fn">First Name</label>
-      <input type="text" class="form-control" placeholder="" name="" id="appt-fn">
+      <input type="text" class="form-control" name="fname" id="appt-fn">
     </div>
     <div class="form-group col-md-2 col-md-3">
       <label for="appt-ln">Last Name</label>
-      <input type="text" class="form-control" placeholder="" name="" id="appt-ln">
+      <input type="text" class="form-control" name="lname" id="appt-ln">
     </div>
     <div class="form-group col-md-6">
       <label for="appt-uid">Student UID (only numbers, no dashes)</label>
-      <input type="number" class="form-control" placeholder="" name="" id="appt-uid" required="required">
+      <input type="number" class="form-control" name="uid" id="appt-uid" required="required">
     </div>
     <div class="form-group col-md-3">
       <label for="appt-email">RIT Email</label>
-      <input type="text" class="form-control" placeholder="" name="" id="appt-email">
+      <input type="text" class="form-control" name="appt-email" id="appt-email">
     </div>
     <div class="form-group col-md-9">
       <label for="">Year at RIT</label>
       <div class="form-control" style="border: none; outline: none; box-shadow: none;">
-        <label class="radio-inline"><input type="radio" name="inlineRadioOptions" value="1st"> 1st</label>
-        <label class="radio-inline"><input type="radio" name="inlineRadioOptions" value="2nd"> 2nd</label>
-        <label class="radio-inline"><input type="radio" name="inlineRadioOptions" value="3rd"> 3rd</label>
-        <label class="radio-inline"><input type="radio" name="inlineRadioOptions" value="4th"> 4th</label>
-        <label class="radio-inline"><input type="radio" name="inlineRadioOptions" value="5th"> 5th</label>
-        <label class="radio-inline"><input type="radio" name="inlineRadioOptions" value="6+ / Grad"> 6+ / Grad</label>
+        <label class="radio-inline"><input type="radio" name="yrlvl" value="1st"> 1st</label>
+        <label class="radio-inline"><input type="radio" name="yrlvl" value="2nd"> 2nd</label>
+        <label class="radio-inline"><input type="radio" name="yrlvl" value="3rd"> 3rd</label>
+        <label class="radio-inline"><input type="radio" name="yrlvl" value="4th"> 4th</label>
+        <label class="radio-inline"><input type="radio" name="yrlvl" value="5th"> 5th</label>
+        <label class="radio-inline"><input type="radio" name="yrlvl" value="6+ / Grad"> 6+ / Grad</label>
       </div>
     </div>
     <div class="form-group col-md-6">
       <label for="appt-college">College</label>
-      <select class="form-control" id="appt-college">
-        <option value="">SELECT COLLEGE</option>
-        <option>College of Applied Science and Technology</option>
-        <option>Saunders College of Business</option>
-        <option>B. Thomas Golisano College of Computing and Information Sciences</option>
-        <option>Kate Gleason College of Engineering</option>
-        <option>College of Health Sciences and Technology</option>
-        <option>College of Imaging Arts and Sciences</option>
-        <option>College of Liberal Arts</option>
-        <option>National Technical Institute for the Deaf</option>
-        <option>College of Science</option>
+      <select class="form-control" id="appt-college" name="college">
+        <option value="null">SELECT COLLEGE</option>
+        <option value="CAST">College of Applied Science and Technology</option>
+        <option value="COB">Saunders College of Business</option>
+        <option value="GCCIS">B. Thomas Golisano College of Computing and Information Sciences</option>
+        <option value="KGCOE">Kate Gleason College of Engineering</option>
+        <option value="COHSAT">College of Health Sciences and Technology</option>
+        <option value="COIAS">College of Imaging Arts and Sciences</option>
+        <option value="COLA">College of Liberal Arts</option>
+        <option value="NTID">National Technical Institute for the Deaf</option>
+        <option value="COS">College of Science</option>
     </select>
     </div>
     <div class="form-group col-md-12">
       <label for="appt-reason">What is your primary reason for making this appointment?</label>
-      <textarea name="" id="appt-reason" class="form-control" cols="30" rows="10"></textarea>
+      <textarea name="primaryreason" id="appt-reason" class="form-control" cols="30" rows="10"></textarea>
     </div>
     <div class="form-group col-md-12">
       <label for="">When are you typically available on the following days?</label>
@@ -106,41 +107,41 @@
         <li><label>3pm</label></li>
         <li><label>4pm</label></li>
         <li class="gh"><label>Tuesday</label></li>
-        <li><input type="checkbox" name="available['Tuesday']" value="9am"></li>
-        <li><input type="checkbox" name="available['Tuesday']" value="10am"></li>
-        <li><input type="checkbox" name="available['Tuesday']" value="11am"></li>
-        <li><input type="checkbox" name="available['Tuesday']" value="12pm"></li>
-        <li><input type="checkbox" name="available['Tuesday']" value="1pm"></li>
-        <li><input type="checkbox" name="available['Tuesday']" value="2pm"></li>
-        <li><input type="checkbox" name="available['Tuesday']" value="3pm"></li>
-        <li><input type="checkbox" name="available['Tuesday']" value="4pm"></li>
+        <li><input type="checkbox" name="availTuesday[]" value="9am"></li>
+        <li><input type="checkbox" name="availTuesday[]" value="10am"></li>
+        <li><input type="checkbox" name="availTuesday[]" value="11am"></li>
+        <li><input type="checkbox" name="availTuesday[]" value="12pm"></li>
+        <li><input type="checkbox" name="availTuesday[]" value="1pm"></li>
+        <li><input type="checkbox" name="availTuesday[]" value="2pm"></li>
+        <li><input type="checkbox" name="availTuesday[]" value="3pm"></li>
+        <li><input type="checkbox" name="availTuesday[]" value="4pm"></li>
         <li class="gh"><label>Wednesday</label></li>
-        <li><input type="checkbox" name="available['Wednesday']" value="9am"></li>
-        <li><input type="checkbox" name="available['Wednesday']" value="10am"></li>
-        <li><input type="checkbox" name="available['Wednesday']" value="11am"></li>
-        <li><input type="checkbox" name="available['Wednesday']" value="12pm"></li>
-        <li><input type="checkbox" name="available['Wednesday']" value="1pm"></li>
-        <li><input type="checkbox" name="available['Wednesday']" value="2pm"></li>
-        <li><input type="checkbox" name="available['Wednesday']" value="3pm"></li>
-        <li><input type="checkbox" name="available['Wednesday']" value="4pm"></li>
+        <li><input type="checkbox" name="availWednesday[]" value="9am"></li>
+        <li><input type="checkbox" name="availWednesday[]" value="10am"></li>
+        <li><input type="checkbox" name="availWednesday[]" value="11am"></li>
+        <li><input type="checkbox" name="availWednesday[]" value="12pm"></li>
+        <li><input type="checkbox" name="availWednesday[]" value="1pm"></li>
+        <li><input type="checkbox" name="availWednesday[]" value="2pm"></li>
+        <li><input type="checkbox" name="availWednesday[]" value="3pm"></li>
+        <li><input type="checkbox" name="availWednesday[]" value="4pm"></li>
         <li class="gh"><label>Thursday</label></li>
-        <li><input type="checkbox" name="available['Thursday']" value="9am"></li>
-        <li><input type="checkbox" name="available['Thursday']" value="10am"></li>
-        <li><input type="checkbox" name="available['Thursday']" value="11am"></li>
-        <li><input type="checkbox" name="available['Thursday']" value="12pm"></li>
-        <li><input type="checkbox" name="available['Thursday']" value="1pm"></li>
-        <li><input type="checkbox" name="available['Thursday']" value="2pm"></li>
-        <li><input type="checkbox" name="available['Thursday']" value="3pm"></li>
-        <li><input type="checkbox" name="available['Thursday']" value="4pm"></li>
+        <li><input type="checkbox" name="availThursday[]" value="9am"></li>
+        <li><input type="checkbox" name="availThursday[]" value="10am"></li>
+        <li><input type="checkbox" name="availThursday[]" value="11am"></li>
+        <li><input type="checkbox" name="availThursday[]" value="12pm"></li>
+        <li><input type="checkbox" name="availThursday[]" value="1pm"></li>
+        <li><input type="checkbox" name="availThursday[]" value="2pm"></li>
+        <li><input type="checkbox" name="availThursday[]" value="3pm"></li>
+        <li><input type="checkbox" name="availThursday[]" value="4pm"></li>
         <li class="gh"><label>Friday</label></li>
-        <li><input type="checkbox" name="available['Friday']" value="9am"></li>
-        <li><input type="checkbox" name="available['Friday']" value="10am"></li>
-        <li><input type="checkbox" name="available['Friday']" value="11am"></li>
-        <li><input type="checkbox" name="available['Friday']" value="12pm"></li>
-        <li><input type="checkbox" name="available['Friday']" value="1pm"></li>
-        <li><input type="checkbox" name="available['Friday']" value="2pm"></li>
-        <li><input type="checkbox" name="available['Friday']" value="3pm"></li>
-        <li><input type="checkbox" name="available['Friday']" value="4pm"></li>
+        <li><input type="checkbox" name="availFriday[]" value="9am"></li>
+        <li><input type="checkbox" name="availFriday[]" value="10am"></li>
+        <li><input type="checkbox" name="availFriday[]" value="11am"></li>
+        <li><input type="checkbox" name="availFriday[]" value="12pm"></li>
+        <li><input type="checkbox" name="availFriday[]" value="1pm"></li>
+        <li><input type="checkbox" name="availFriday[]" value="2pm"></li>
+        <li><input type="checkbox" name="availFriday[]" value="3pm"></li>
+        <li><input type="checkbox" name="availFriday[]" value="4pm"></li>
       </ul>
     </div>
     <div class="form-group">
@@ -150,4 +151,17 @@
       </div>
     </div>
   </form>
+</div>
+
+<div id="successAlert" class="hidden alert alert-success alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert">
+      <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+  </button>
+  <strong class="msgbody"></strong>
+</div>
+<div id="errorAlert" class="hidden alert alert-danger alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert">
+      <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+  </button>
+  <strong class="msgbody"></strong>
 </div>
