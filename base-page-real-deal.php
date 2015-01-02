@@ -20,20 +20,10 @@
     <div class="home">
       <?php get_template_part('templates/asco', 'page-jumbotron') ?>
       <div class="wrap home container" role="document">
-        <?php
-          $cm_section = 'home';
-          include(locate_template('templates/asco-community-nav.php'));
-        ?>
-        <div class="content row col-sm-12">
-          <div class="post-content col-sm-9">
-            <?php echo do_shortcode('[ajax_load_more post_type="post" max_pages="none"]'); ?>
-            <?php //include roots_template_path(); ?>
-          </div><!-- /.main -->
-          <?php if (roots_display_sidebar()) : ?>
-            <aside class="sidebar col-sm-3 <?php //echo roots_sidebar_class(); ?>" role="complementary">
-              <?php include roots_sidebar_path(); ?>
-            </aside><!-- /.sidebar -->
-          <?php endif; ?>
+        <div style="margin: 0 auto;" class="content row col-sm-12 series">
+            <?=
+              do_shortcode('[Youtube_Channel_Gallery feed="playlist" user="PLQNUyWPG-wZfdzFU-QkXIGgntvZWam2yA" videowidth="580" ratio="16x9" theme="light" color="white" autoplay="0" rel="0" showinfo="1" maxitems="100" thumbwidth="277" thumbratio="16x9" quality="default" thumbcolumns="2" title="1" description="1" thumbnail_alignment="top" descriptionwordsnumber="100" link="1"]');
+            ?>
         </div><!-- /.content -->
       </div><!-- /.wrap -->
     </div>

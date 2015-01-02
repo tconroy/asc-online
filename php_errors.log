@@ -1,0 +1,381 @@
+[27-Dec-2014 18:55:56 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 38
+[27-Dec-2014 18:55:56 UTC] PHP Stack trace:
+[27-Dec-2014 18:55:56 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 18:55:56 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:18
+[27-Dec-2014 18:55:56 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 38
+[27-Dec-2014 18:55:56 UTC] PHP Stack trace:
+[27-Dec-2014 18:55:56 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 18:55:56 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:18
+[27-Dec-2014 19:00:03 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 38
+[27-Dec-2014 19:00:03 UTC] PHP Stack trace:
+[27-Dec-2014 19:00:03 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:00:03 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:18
+[27-Dec-2014 19:00:03 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 38
+[27-Dec-2014 19:00:03 UTC] PHP Stack trace:
+[27-Dec-2014 19:00:03 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:00:03 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:18
+[27-Dec-2014 19:00:12 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 38
+[27-Dec-2014 19:00:12 UTC] PHP Stack trace:
+[27-Dec-2014 19:00:12 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:00:12 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:18
+[27-Dec-2014 19:00:12 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 38
+[27-Dec-2014 19:00:12 UTC] PHP Stack trace:
+[27-Dec-2014 19:00:12 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:00:12 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:18
+[27-Dec-2014 19:02:06 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 38
+[27-Dec-2014 19:02:06 UTC] PHP Stack trace:
+[27-Dec-2014 19:02:06 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:02:06 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:18
+[27-Dec-2014 19:02:06 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 38
+[27-Dec-2014 19:02:06 UTC] PHP Stack trace:
+[27-Dec-2014 19:02:06 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:02:06 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:18
+[27-Dec-2014 19:03:32 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:03:32 UTC] PHP Stack trace:
+[27-Dec-2014 19:03:32 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:03:32 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:03:32 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:03:32 UTC] PHP Stack trace:
+[27-Dec-2014 19:03:32 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:03:32 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:05:07 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:05:07 UTC] PHP Stack trace:
+[27-Dec-2014 19:05:07 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:05:07 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:05:07 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:05:07 UTC] PHP Stack trace:
+[27-Dec-2014 19:05:07 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:05:07 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:13:07 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:13:07 UTC] PHP Stack trace:
+[27-Dec-2014 19:13:07 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:13:07 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:13:07 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:13:07 UTC] PHP Stack trace:
+[27-Dec-2014 19:13:07 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:13:07 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:13:21 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:13:21 UTC] PHP Stack trace:
+[27-Dec-2014 19:13:21 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:13:21 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:13:21 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:13:21 UTC] PHP Stack trace:
+[27-Dec-2014 19:13:21 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:13:21 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:14:04 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:14:04 UTC] PHP Stack trace:
+[27-Dec-2014 19:14:04 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:14:04 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:14:04 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:14:04 UTC] PHP Stack trace:
+[27-Dec-2014 19:14:04 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:14:04 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:15:52 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:15:52 UTC] PHP Stack trace:
+[27-Dec-2014 19:15:52 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:15:52 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:15:52 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:15:52 UTC] PHP Stack trace:
+[27-Dec-2014 19:15:52 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:15:52 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:16:21 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:16:21 UTC] PHP Stack trace:
+[27-Dec-2014 19:16:21 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:16:21 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:16:21 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:16:21 UTC] PHP Stack trace:
+[27-Dec-2014 19:16:21 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:16:21 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:16:26 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:16:26 UTC] PHP Stack trace:
+[27-Dec-2014 19:16:26 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:16:26 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:16:26 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:16:26 UTC] PHP Stack trace:
+[27-Dec-2014 19:16:26 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:16:26 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:18:23 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:18:23 UTC] PHP Stack trace:
+[27-Dec-2014 19:18:23 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:18:23 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:18:23 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:18:23 UTC] PHP Stack trace:
+[27-Dec-2014 19:18:23 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:18:23 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:19:14 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:19:14 UTC] PHP Stack trace:
+[27-Dec-2014 19:19:14 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:19:14 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:19:14 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:19:14 UTC] PHP Stack trace:
+[27-Dec-2014 19:19:14 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:19:14 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:27:14 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:27:14 UTC] PHP Stack trace:
+[27-Dec-2014 19:27:14 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:27:14 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:27:14 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:27:14 UTC] PHP Stack trace:
+[27-Dec-2014 19:27:14 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:27:14 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:28:53 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:28:53 UTC] PHP Stack trace:
+[27-Dec-2014 19:28:53 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:28:53 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:28:53 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:28:53 UTC] PHP Stack trace:
+[27-Dec-2014 19:28:53 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:28:53 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:29:18 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:29:18 UTC] PHP Stack trace:
+[27-Dec-2014 19:29:18 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:29:18 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:29:18 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:29:18 UTC] PHP Stack trace:
+[27-Dec-2014 19:29:18 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:29:18 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:36:40 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:36:40 UTC] PHP Stack trace:
+[27-Dec-2014 19:36:40 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:36:40 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:36:40 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:36:40 UTC] PHP Stack trace:
+[27-Dec-2014 19:36:40 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:36:40 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:37:15 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:37:15 UTC] PHP Stack trace:
+[27-Dec-2014 19:37:15 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:37:15 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:37:15 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:37:15 UTC] PHP Stack trace:
+[27-Dec-2014 19:37:15 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:37:15 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:44:33 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:44:33 UTC] PHP Stack trace:
+[27-Dec-2014 19:44:33 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:44:33 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:44:33 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:44:33 UTC] PHP Stack trace:
+[27-Dec-2014 19:44:33 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:44:33 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:13
+[27-Dec-2014 19:46:00 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 32
+[27-Dec-2014 19:46:00 UTC] PHP Stack trace:
+[27-Dec-2014 19:46:00 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:46:00 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:12
+[27-Dec-2014 19:46:00 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 32
+[27-Dec-2014 19:46:00 UTC] PHP Stack trace:
+[27-Dec-2014 19:46:00 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:46:00 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:12
+[27-Dec-2014 19:46:12 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 32
+[27-Dec-2014 19:46:12 UTC] PHP Stack trace:
+[27-Dec-2014 19:46:12 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:46:12 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:12
+[27-Dec-2014 19:46:12 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 32
+[27-Dec-2014 19:46:12 UTC] PHP Stack trace:
+[27-Dec-2014 19:46:12 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:46:12 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:12
+[27-Dec-2014 19:46:41 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 29
+[27-Dec-2014 19:46:41 UTC] PHP Stack trace:
+[27-Dec-2014 19:46:41 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:46:41 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:10
+[27-Dec-2014 19:46:41 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 29
+[27-Dec-2014 19:46:41 UTC] PHP Stack trace:
+[27-Dec-2014 19:46:41 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:46:41 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:10
+[27-Dec-2014 19:46:47 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 29
+[27-Dec-2014 19:46:47 UTC] PHP Stack trace:
+[27-Dec-2014 19:46:47 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:46:47 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:10
+[27-Dec-2014 19:46:47 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 29
+[27-Dec-2014 19:46:47 UTC] PHP Stack trace:
+[27-Dec-2014 19:46:47 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:46:47 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:10
+[27-Dec-2014 19:47:46 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 29
+[27-Dec-2014 19:47:46 UTC] PHP Stack trace:
+[27-Dec-2014 19:47:46 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:47:46 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:10
+[27-Dec-2014 19:47:46 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 29
+[27-Dec-2014 19:47:46 UTC] PHP Stack trace:
+[27-Dec-2014 19:47:46 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:47:46 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:10
+[27-Dec-2014 19:50:49 UTC] PHP Notice:  Undefined variable: transport in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 24
+[27-Dec-2014 19:50:49 UTC] PHP Stack trace:
+[27-Dec-2014 19:50:49 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:50:49 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:10
+[27-Dec-2014 19:50:49 UTC] PHP Catchable fatal error:  Argument 1 passed to Swift_Mailer::newInstance() must implement interface Swift_Transport, null given, called in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 24 and defined in /vagrant/wordpress/wp-content/themes/asco-theme/lib/swiftmailer/lib/classes/Swift/Mailer.php on line 38
+[27-Dec-2014 19:50:49 UTC] PHP Stack trace:
+[27-Dec-2014 19:50:49 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:50:49 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:10
+[27-Dec-2014 19:50:49 UTC] PHP   3. Swift_Mailer::newInstance() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:24
+[27-Dec-2014 19:51:25 UTC] PHP Notice:  Undefined variable: transport in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 25
+[27-Dec-2014 19:51:25 UTC] PHP Stack trace:
+[27-Dec-2014 19:51:25 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:51:25 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:11
+[27-Dec-2014 19:51:25 UTC] PHP Catchable fatal error:  Argument 1 passed to Swift_Mailer::newInstance() must implement interface Swift_Transport, null given, called in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 25 and defined in /vagrant/wordpress/wp-content/themes/asco-theme/lib/swiftmailer/lib/classes/Swift/Mailer.php on line 38
+[27-Dec-2014 19:51:25 UTC] PHP Stack trace:
+[27-Dec-2014 19:51:25 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:51:25 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:11
+[27-Dec-2014 19:51:25 UTC] PHP   3. Swift_Mailer::newInstance() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:25
+[27-Dec-2014 19:56:14 UTC] PHP Notice:  Undefined variable: transport in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 25
+[27-Dec-2014 19:56:14 UTC] PHP Stack trace:
+[27-Dec-2014 19:56:14 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:56:14 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:11
+[27-Dec-2014 19:56:14 UTC] PHP Catchable fatal error:  Argument 1 passed to Swift_Mailer::newInstance() must implement interface Swift_Transport, null given, called in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 25 and defined in /vagrant/wordpress/wp-content/themes/asco-theme/lib/swiftmailer/lib/classes/Swift/Mailer.php on line 38
+[27-Dec-2014 19:56:14 UTC] PHP Stack trace:
+[27-Dec-2014 19:56:14 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:56:14 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:11
+[27-Dec-2014 19:56:14 UTC] PHP   3. Swift_Mailer::newInstance() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:25
+[27-Dec-2014 19:58:19 UTC] PHP Notice:  Undefined variable: transport in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 25
+[27-Dec-2014 19:58:19 UTC] PHP Stack trace:
+[27-Dec-2014 19:58:19 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:58:19 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:11
+[27-Dec-2014 19:58:19 UTC] PHP Catchable fatal error:  Argument 1 passed to Swift_Mailer::newInstance() must implement interface Swift_Transport, null given, called in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 25 and defined in /vagrant/wordpress/wp-content/themes/asco-theme/lib/swiftmailer/lib/classes/Swift/Mailer.php on line 38
+[27-Dec-2014 19:58:19 UTC] PHP Stack trace:
+[27-Dec-2014 19:58:19 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:58:19 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:11
+[27-Dec-2014 19:58:19 UTC] PHP   3. Swift_Mailer::newInstance() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:25
+[27-Dec-2014 19:59:13 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 31
+[27-Dec-2014 19:59:13 UTC] PHP Stack trace:
+[27-Dec-2014 19:59:13 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:59:13 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:11
+[27-Dec-2014 19:59:13 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 31
+[27-Dec-2014 19:59:13 UTC] PHP Stack trace:
+[27-Dec-2014 19:59:13 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:59:13 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:11
+[27-Dec-2014 19:59:23 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 32
+[27-Dec-2014 19:59:23 UTC] PHP Stack trace:
+[27-Dec-2014 19:59:23 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:59:23 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:11
+[27-Dec-2014 19:59:23 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 32
+[27-Dec-2014 19:59:23 UTC] PHP Stack trace:
+[27-Dec-2014 19:59:23 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:59:23 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:11
+[27-Dec-2014 19:59:34 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:59:34 UTC] PHP Stack trace:
+[27-Dec-2014 19:59:34 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:59:34 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:11
+[27-Dec-2014 19:59:34 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:59:34 UTC] PHP Stack trace:
+[27-Dec-2014 19:59:34 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:59:34 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:11
+[27-Dec-2014 19:59:39 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:59:39 UTC] PHP Stack trace:
+[27-Dec-2014 19:59:39 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:59:39 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:11
+[27-Dec-2014 19:59:39 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 19:59:39 UTC] PHP Stack trace:
+[27-Dec-2014 19:59:39 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 19:59:39 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:11
+[27-Dec-2014 20:00:00 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 20:00:00 UTC] PHP Stack trace:
+[27-Dec-2014 20:00:00 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:00:00 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:12
+[27-Dec-2014 20:00:00 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 33
+[27-Dec-2014 20:00:00 UTC] PHP Stack trace:
+[27-Dec-2014 20:00:00 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:00:00 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:12
+[27-Dec-2014 20:00:11 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 31
+[27-Dec-2014 20:00:11 UTC] PHP Stack trace:
+[27-Dec-2014 20:00:11 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:00:11 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:10
+[27-Dec-2014 20:00:11 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 31
+[27-Dec-2014 20:00:11 UTC] PHP Stack trace:
+[27-Dec-2014 20:00:11 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:00:11 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:10
+[27-Dec-2014 20:00:18 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 32
+[27-Dec-2014 20:00:18 UTC] PHP Stack trace:
+[27-Dec-2014 20:00:18 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:00:18 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:11
+[27-Dec-2014 20:00:18 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 32
+[27-Dec-2014 20:00:18 UTC] PHP Stack trace:
+[27-Dec-2014 20:00:18 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:00:18 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:11
+[27-Dec-2014 20:00:27 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 32
+[27-Dec-2014 20:00:27 UTC] PHP Stack trace:
+[27-Dec-2014 20:00:27 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:00:27 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:11
+[27-Dec-2014 20:00:27 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 32
+[27-Dec-2014 20:00:27 UTC] PHP Stack trace:
+[27-Dec-2014 20:00:27 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:00:27 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:11
+[27-Dec-2014 20:01:20 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 32
+[27-Dec-2014 20:01:20 UTC] PHP Stack trace:
+[27-Dec-2014 20:01:20 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:01:20 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:11
+[27-Dec-2014 20:01:20 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 32
+[27-Dec-2014 20:01:20 UTC] PHP Stack trace:
+[27-Dec-2014 20:01:20 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:01:20 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:11
+[27-Dec-2014 20:01:57 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 27
+[27-Dec-2014 20:01:57 UTC] PHP Stack trace:
+[27-Dec-2014 20:01:57 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:01:57 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:10
+[27-Dec-2014 20:01:57 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 27
+[27-Dec-2014 20:01:57 UTC] PHP Stack trace:
+[27-Dec-2014 20:01:57 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:01:57 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:10
+[27-Dec-2014 20:02:44 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 27
+[27-Dec-2014 20:02:44 UTC] PHP Stack trace:
+[27-Dec-2014 20:02:44 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:02:44 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:10
+[27-Dec-2014 20:02:44 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 27
+[27-Dec-2014 20:02:44 UTC] PHP Stack trace:
+[27-Dec-2014 20:02:44 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:02:44 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:10
+[27-Dec-2014 20:06:05 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 30
+[27-Dec-2014 20:06:05 UTC] PHP Stack trace:
+[27-Dec-2014 20:06:05 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:06:05 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:10
+[27-Dec-2014 20:06:05 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 30
+[27-Dec-2014 20:06:05 UTC] PHP Stack trace:
+[27-Dec-2014 20:06:05 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:06:05 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:10
+[27-Dec-2014 20:06:07 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 30
+[27-Dec-2014 20:06:07 UTC] PHP Stack trace:
+[27-Dec-2014 20:06:07 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:06:07 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:10
+[27-Dec-2014 20:06:07 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 30
+[27-Dec-2014 20:06:07 UTC] PHP Stack trace:
+[27-Dec-2014 20:06:07 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:06:07 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:10
+[27-Dec-2014 20:07:23 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 32
+[27-Dec-2014 20:07:23 UTC] PHP Stack trace:
+[27-Dec-2014 20:07:23 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:07:23 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:12
+[27-Dec-2014 20:07:23 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 32
+[27-Dec-2014 20:07:23 UTC] PHP Stack trace:
+[27-Dec-2014 20:07:23 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:07:23 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:12
+[27-Dec-2014 20:07:34 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 32
+[27-Dec-2014 20:07:34 UTC] PHP Stack trace:
+[27-Dec-2014 20:07:34 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:07:34 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:12
+[27-Dec-2014 20:07:34 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 32
+[27-Dec-2014 20:07:34 UTC] PHP Stack trace:
+[27-Dec-2014 20:07:34 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:07:34 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:12
+[27-Dec-2014 20:08:51 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 32
+[27-Dec-2014 20:08:51 UTC] PHP Stack trace:
+[27-Dec-2014 20:08:51 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:08:51 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:12
+[27-Dec-2014 20:08:51 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 32
+[27-Dec-2014 20:08:51 UTC] PHP Stack trace:
+[27-Dec-2014 20:08:51 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:08:51 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:12
+[27-Dec-2014 20:10:28 UTC] PHP Notice:  Undefined variable: mailer in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 32
+[27-Dec-2014 20:10:28 UTC] PHP Stack trace:
+[27-Dec-2014 20:10:28 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:10:28 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:12
+[27-Dec-2014 20:10:28 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php on line 32
+[27-Dec-2014 20:10:28 UTC] PHP Stack trace:
+[27-Dec-2014 20:10:28 UTC] PHP   1. {main}() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:0
+[27-Dec-2014 20:10:28 UTC] PHP   2. processForm() /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php:12
+[27-Dec-2014 20:12:56 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp://0.0.0.0 [Network is unreachable #101]' in /vagrant/wordpress/wp-content/themes/asco-theme/lib/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /vagrant/wordpress/wp-content/themes/asco-theme/lib/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /vagrant/wordpress/wp-content/themes/asco-theme/lib/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /vagrant/wordpress/wp-content/themes/asco-theme/lib/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php(33): Swift_Mailer->send(Object(Swift_Message))
+#4 /vagrant/wordpress/wp-content/themes/asco-theme/mailer.php(12): processForm('contact')
+#5 {main}
+  thrown in /vagrant/wordpress/wp-content/themes/asco-theme/lib/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265

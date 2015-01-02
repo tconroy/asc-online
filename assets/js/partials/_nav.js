@@ -20,6 +20,23 @@ var Nav = {
   bindEvents: function () {
     $(window).resize( this.setNavClass );
     $(document).click( this.hideNavMenu );
+    this.bindSocialIconAnim();
+  },
+
+  bindSocialIconAnim: function() {
+    // bounce social icons at top of page on hover.
+    $('.social-circle li, .social li').mouseenter(function(){
+      $(this).addClass('animated tada');
+      $(this).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+        $(this).removeClass('animated tada');
+      });
+    });
+    $('.ascologo').mouseenter(function(){
+      $(this).addClass('animated rubberBand');
+      $(this).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+        $(this).removeClass('animated rubberBand');
+      });
+    });
   },
 
   // hides the dropdown menu if use clicks outside of

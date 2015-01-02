@@ -2,6 +2,20 @@
  * LINK STYLES
  ****************/
 
+.series .media a:link {
+  color: $asc-orange;
+}
+.series .media a:visited {
+  color: $asc-orange;
+}
+.series .media a:hover > img{
+  border: none;
+}
+
+.series .media a:active {
+  color: $asc-orange;
+}
+
 /* unvisited link */
 .wrap a:link {
   font-weight: bold;

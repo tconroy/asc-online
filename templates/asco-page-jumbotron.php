@@ -6,11 +6,12 @@
             case "lessons":
                 $uri .= "adasdasdas.png";
                 break;
-
             case "series":
                 $uri .= "ASC_RealDeal_Banner.png";
                 break;
-
+            case "real deal":
+                $uri .= "ASC_RealDeal_Banner.png";
+                break;
             default:
                 $uri .= "ASC_Community_Banner.png";
                 break;
@@ -35,10 +36,10 @@
             </div>
             <div class="col-xs-12 col-sm-6">
                 <ul class="social list-inline">
-                    <a href=""><li class="fb"></li></a>
-                    <a href=""><li class="tw"></li></a>
-                    <a href=""><li class="yt"></li></a>
-                    <a href=""><li class="ig"></li></a>
+                    <a target="_blank" href="https://www.facebook.com/RITAcademicSupportCenter"><li class="fb"></li></a>
+                    <a target="_blank" href="https://twitter.com/ASCatRIT"><li class="tw"></li></a>
+                    <a target="_blank" href="https://www.youtube.com/user/ASCatRIT"><li class="yt"></li></a>
+                    <a target="_blank" href="https://instagram.com/ascatrit"><li class="ig"></li></a>
                 </ul>
             </div>
         </div>
