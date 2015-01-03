@@ -1,16 +1,36 @@
-<div class="media well well-sm">
-    <a class="media-left pull-left" href="/series/real-deal">
-    <img class="img-responsive" src="http://img.youtube.com/vi/-nfG04zfwmE/default.jpg" alt="Real Deal">
-    </a>
-    <div class="media-body">
-        <h3 class="media-heading">
-          <a href="/series/real-deal">
-            Real Deal
-          </a>
-        </h3>
-        <p>
-        In the Real Deal, fellow RIT students dish out everything you've ever wanted to know about academic life at RIT.
-        </p>
-        <a href="/series/real-deal"><small>Watch Now &#187;</small></a>
+<div class="row">
+    <div class="col-xs-12">
+        <ul class="lessons-subnav">
+            <li class="float">
+                <a href="">
+                <img src="<?= get_template_directory_uri(); ?>/assets/img/content/icons/subnav/study-skills_nav.png" alt="">
+                </a>
+            </li>
+            <li class="float">
+                <a href="">
+                <img src="<?= get_template_directory_uri(); ?>/assets/img/content/icons/subnav/time-management_nav.png" alt="">
+                </a>
+            </li>
+            <li class="float">
+                <a href="">
+                <img src="<?= get_template_directory_uri(); ?>/assets/img/content/icons/subnav/tutoring_nav.png" alt="">
+                </a>
+            </li>
+            <li class="float">
+                <a href="">
+                <img src="<?= get_template_directory_uri(); ?>/assets/img/content/icons/subnav/math_nav.png" alt="">
+                </a>
+            </li>
+            <li class="float">
+                <a href="">
+                <img src="<?= get_template_directory_uri(); ?>/assets/img/content/icons/subnav/reading_nav.png" alt="">
+                </a>
+            </li>
+            <li class="float">
+                <a href="">
+                <img src="<?= get_template_directory_uri(); ?>/assets/img/content/icons/subnav/online-learning_nav.png" alt="">
+                </a>
+            </li>
+        </ul>
     </div>
 </div>

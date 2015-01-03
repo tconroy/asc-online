@@ -14,6 +14,7 @@ $bootstrap-sass-asset-helper: false;
 @import "custom/partials/helpers";
 // components
 @import "custom/partials/navbar";
+@import "custom/partials/subnav";
 @import "custom/partials/footer";
 @import "custom/partials/buttons";
 @import "custom/partials/jumbotron";
@@ -27,6 +28,7 @@ $bootstrap-sass-asset-helper: false;
 @import "custom/partials/uniform._base";
 @import "custom/partials/jquery.ibacor-fb-streaming";
 @import "custom/partials/slick";
+@import "custom/partials/hover";
 // page-specific styling
 @import "custom/pages/home";
 @import "custom/pages/community";

@@ -1,0 +1,14 @@
+ul.lessons-subnav {
+  @extend .list-inline;
+  text-align: center;
+  padding-top: 1em;
+  li {
+    margin: 0;
+    padding: 0;
+    margin-right: -5px;
+  }
+  li>img {
+    @extend .img-responsive;
+  }
+
+}

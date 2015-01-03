@@ -68,7 +68,6 @@ var Contact = {
     onFormAjaxSuccess: function($form, response) {
         var alert = $('#successAlert').clone().removeClass('hidden');
         alert.find('.msgbody').text(response);
-        // alert.prependTo($form.parent());
         alert.prependTo( $form );
         $form[0].reset();
         $form.find('input[type="submit"]').attr('disabled', 'disabled');
@@ -82,7 +81,7 @@ var Contact = {
     onFormAjaxFail: function($form, data) {
         var alert = $('#errorAlert').clone().removeClass('hidden');
         alert.find('.msgbody').text(data.responseText);
-        alert.prependTo($form.parent());
+        alert.prependTo($form);
         $form.find('input[name="captcha"]').prop('checked', false);
         $form.find('input[type="submit"]').attr('disabled', 'disabled');
     },

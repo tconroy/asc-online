@@ -19,7 +19,7 @@
   <main class="main" role="main">
     <div class="home">
       <?php get_template_part('templates/asco', 'page-jumbotron') ?>
-      <div class="wrap home container" role="document">
+      <div class="home container" role="document">
         <?php
           $cm_section = 'community';
           include(locate_template('templates/asco-community-nav.php'));

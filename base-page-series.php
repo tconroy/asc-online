@@ -17,7 +17,7 @@
   <main class="main" role="main">
     <div class="home">
       <?php get_template_part('templates/asco', 'page-jumbotron') ?>
-      <div class="wrap home container" role="document">
+      <div class="home container" role="document">
         <div class="content row col-sm-12 series">
           <?php include roots_template_path(); ?>
         </div><!-- /.content -->

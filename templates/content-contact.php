@@ -1,6 +1,6 @@
 <!-- sidebar map -->
 <div class="col-md-5 col-md-push-7">
-  <a id="gmap-link" href="http://maps.rit.edu/embed.php?zoom=21&lat=43.084790235380794&lng=-77.67410930290224&open=p-24&start=0&rows=10">
+  <a id="gmap-link" target="_blank" href="http://maps.rit.edu/embed.php?zoom=21&lat=43.084790235380794&lng=-77.67410930290224&open=p-24&start=0&rows=10">
     <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/content/contact/static-gmap.png">
   </a>
   <p>
