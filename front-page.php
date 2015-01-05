@@ -31,7 +31,7 @@
             <div class="panel panel-default blue">
                 <a href="lessons/study-skills"><img class="img-responsive" src="<?=get_template_directory_uri();?>/assets/img/content/lessons/study_skills_icon.png" alt=""></a>
                 <div class="panel-body">
-                    <h3 class="panel-title"><a href="lessons/study-skills">Study Skills</a></h3>
+                    <h3 class="panel-title"><a href="lessons?cat=study-skills">Study Skills</a></h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatibus tempore blanditiis.</p>
                 </div>
             </div>
@@ -40,7 +40,7 @@
             <div class="panel panel-default green">
                 <a href="lessons/time-management"><img class="img-responsive" src="<?=get_template_directory_uri();?>/assets/img/content/lessons/time_management_icon.png" alt=""></a>
                 <div class="panel-body">
-                    <h3 class="panel-title"><a href="lessons/time-management">Time Management</a></h3>
+                    <h3 class="panel-title"><a href="lessons?cat=time-management">Time Management</a></h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatibus tempore blanditiis.</p>
                 </div>
             </div>
@@ -50,7 +50,7 @@
             <div class="panel panel-default orange">
                 <a href="lessons/tutoring"><img class="img-responsive" src="<?=get_template_directory_uri();?>/assets/img/content/lessons/tutoring_icon.png" alt=""></a>
                 <div class="panel-body">
-                    <h3 class="panel-title"><a href="lessons/tutoring">Tutoring</a></h3>
+                    <h3 class="panel-title"><a href="lessons?cat=tutoring">Tutoring</a></h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatibus tempore blanditiis.</p>
                 </div>
             </div>
@@ -60,7 +60,7 @@
             <div class="panel panel-default yellow">
                 <a href="lessons/math"><img class="img-responsive" src="<?=get_template_directory_uri(); ?>/assets/img/content/lessons/math_icon.png" alt=""></a>
                 <div class="panel-body">
-                    <h3 class="panel-title"><a href="lessons/math">Math</a></h3>
+                    <h3 class="panel-title"><a href="lessons?cat=math">Math</a></h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatibus tempore blanditiis.</p>
                 </div>
             </div>
@@ -70,7 +70,7 @@
             <div class="panel panel-default red">
                 <a href="lessons/reading"><img class="img-responsive" src="<?=get_template_directory_uri();?>/assets/img/content/lessons/reading_icon.png" alt=""></a>
                 <div class="panel-body">
-                    <h3 class="panel-title"><a href="lessons/reading">Reading</a></h3>
+                    <h3 class="panel-title"><a href="lessons?cat=reading">Reading</a></h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatibus tempore blanditiis.</p>
                 </div>
             </div>
@@ -79,7 +79,7 @@
             <div class="panel panel-default gray">
                 <a href="lessons/online-learning"><img class="img-responsive" src="<?=get_template_directory_uri();?>/assets/img/content/lessons/online_learning_icon.png" alt=""></a>
                 <div class="panel-body">
-                    <h3 class="panel-title"><a href="lessons/online-learning">Online Learning</a></h3>
+                    <h3 class="panel-title"><a href="lessons?cat=online-learning">Online Learning</a></h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatibus tempore blanditiis.</p>
                 </div>
             </div>

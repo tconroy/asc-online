@@ -44,6 +44,23 @@
             -webkit-backface-visibility: hidden;
          }
       }
+      ul.dropdown-menu {
+         padding: 5px;
+         font-size: .8em;
+         left: 0;
+         li {
+            height: 2em;
+         }
+         li a {
+            line-height: normal;
+            border: none;
+            height: auto;
+            border-bottom: none;
+         }
+         li a:hover {
+            border-bottom: 1px solid lighten($asc-orange, 15%);
+         }
+      }
    }
 
    .navbar-brand{
@@ -128,6 +145,10 @@
    padding-bottom: 0;
    border-bottom: none;
 
+   .navbar-collapse {
+      overflow-y: visible;
+   }
+
    .container {
 
       .navbar-collapse{
@@ -148,17 +169,43 @@
                   color:white;
                }
                &:hover{
-                  a{
-                     //background: $rit-orange;
-                     background: darken($rit-orange, 10%);
-                  }
+                  a { background: darken($rit-orange, 10%); }
                }
                &.active{
-                  a{
-                     // background: #f8571c;
-                     //background: lighten($rit-orange, 10%);
-                     background: $rit-darkgray;
-                  }
+                  a{ background: $rit-darkgray; }
+               }
+            }
+         }
+         li.dropdown.menu-lessons:hover {
+            background: darken($rit-orange, 10%);
+         }
+         li.dropdown {
+            &:hover {
+               >a { background: darken($rit-orange, 10%); }
+               a {
+                  background: none !important;
+               }
+            }
+         }
+         .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+            background: none;
+         }
+         ul.dropdown-menu {
+            padding: 0;
+            li {
+               background: gray;
+            }
+            li:hover {
+               background: darken($rit-orange, 10%) !important;
+            }
+            li > a {
+               text-indent: 45%;
+               border-bottom: 1px solid $rit-darkgray;
+               font-size: .75em;
+               padding: 3px 0 3px 0;
+               text-align: left;
+               &:before {
+                  content: "\25b8";
                }
             }
          }

@@ -1,0 +1,24 @@
+ul.lessons-subnav {
+  @extend .list-inline;
+  padding-top: 1em;
+  margin: 0 auto;
+  display: table;
+  li {
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+    float: left;
+  }
+  li>img {
+    @extend .img-responsive;
+    margin: 0;
+    padding: 0;
+  }
+  li>a {
+    margin: 0;
+    padding: 0;
+  }
+  li.active {
+    @extend .float:active;
+  }
+}

@@ -1,10 +1,10 @@
 <?php
     function getHeaderImgUri($pageName) {
         $pageName = strtolower($pageName);
-        $uri = get_template_directory_uri() . '/assets/img/layout/cover/';
+        $uri = get_template_directory_uri() . '/assets/img/layout/cover/scaled/';
         switch($pageName) {
             case "lessons":
-                $uri .= "adasdasdas.png";
+                $uri .= selectLessonsBanner($_GET['cat']);
                 break;
             case "series":
                 $uri .= "ASC_RealDeal_Banner.png";
@@ -16,6 +16,26 @@
                 $uri .= "ASC_Community_Banner.png";
                 break;
         }
+        return $uri;
+    }
+
+    function selectLessonsBanner($cat) {
+        $uri;
+        switch ($cat) {
+            case 'study-skills':
+            case 'time-management':
+            case 'tutoring':
+            case 'math':
+            case 'reading':
+            case 'online-learning':
+                $uri = $cat.".png";
+                break;
+
+            default:
+                $uri = "ASC_Homepage_Banner.png";
+                break;
+        }
+
         return $uri;
     }
  ?>
