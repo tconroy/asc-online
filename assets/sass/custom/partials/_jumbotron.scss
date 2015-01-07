@@ -67,17 +67,14 @@
 } // end jumbotron
 
 .jumbotron-caption {
-  padding-top:    40px;
-  padding-bottom: 20px;
-  padding-left:   30px;
-  padding-right:  30px;
+  padding: 1em 1em .5em 1em;
   font-size:      1.25em;
   background:     $rit-darkgray;
   color:          white;
   .social {
     margin-bottom:  0;
     padding-bottom: 10px;
-    // padding-top:    20px;
+    display: table;
     float: right;
 
     // $social-icon : '../img/content/icons/square/';
@@ -94,7 +91,9 @@
     $yt           : $social-icon + 'ASC_YoutubeIcon' + $ext;
     $ig         : $social-icon + 'ASC_InstagramIcon' + $ext;
 
-    a { display: inline-block; }
+    a {
+      display: table-cell;
+    }
     a:hover { outline: none; border: none; }
     // li { max-width: 48px; width: 48px; height: 48px; margin-right: 20px; }
     li { max-width: 64px; width: 64px; height: 64px; margin-right: 20px; background-size:50% !important; }
