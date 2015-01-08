@@ -33,10 +33,10 @@
             </div>
             <div class="col-xs-12 col-sm-6">
                 <ul class="social list-inline">
-                    <a href=""><li class="fb"></li></a>
-                    <a href=""><li class="tw"></li></a>
-                    <a href=""><li class="yt"></li></a>
-                    <a href=""><li class="ig"></li></a>
+                    <a href="https://www.facebook.com/RITAcademicSupportCenter"><li class="fb"></li></a>
+                    <a href="https://twitter.com/ASCatRIT"><li class="tw"></li></a>
+                    <a href="https://www.youtube.com/user/ASCatRIT"><li class="yt"></li></a>
+                    <a href="https://instagram.com/ascatrit"><li class="ig"></li></a>
                 </ul>
             </div>
         </div>

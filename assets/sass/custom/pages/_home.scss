@@ -5,6 +5,10 @@
 }
 
 .home{
+  >.content {
+    margin-bottom: 2em;
+    min-height: 450px;
+  }
   .panel {
     max-width: 450px;
     margin: 0 auto;
@@ -95,7 +99,7 @@
   }// end whatsnew
 
   .classroom {
-    margin-bottom: 4em;
+    // margin-bottom: 4em;
     .panel{
       &:hover{
         background: white;

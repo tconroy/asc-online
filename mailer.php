@@ -1,9 +1,10 @@
 <?php
 require_once 'lib/swiftmailer/lib/swift_required.php';
 
-$transport = Swift_SmtpTransport::newInstance('mailtrap.io', 25)
-                ->setUsername('28078cd801a00bf58')
-                ->setPassword('de7c3679824b28');
+// $transport = Swift_SmtpTransport::newInstance('mailtrap.io', 25)
+//                 ->setUsername('28078cd801a00bf58')
+//                 ->setPassword('de7c3679824b28');
+$transport = Swift_MailTransport::newInstance();
 $mailer = Swift_Mailer::newInstance($transport);
 
 $ascAddress = [ 'asc@rit.edu' => 'RIT Academic Support Center' ];

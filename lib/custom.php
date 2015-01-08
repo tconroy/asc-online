@@ -3,7 +3,7 @@
  * Custom functions
  */
 // bug testing only. remove for production!
-add_action('wp_footer', 'roots_wrap_info');
+//add_action('wp_footer', 'roots_wrap_info');
 function roots_wrap_info(){
   $format = '<h6>The %s template being used is: %s</h6>';
   $main   = Roots_Wrapping::$main_template;
